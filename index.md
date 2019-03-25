@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./_posts/game_of_life.md).
+[Link to another page](./_posts/game_of_life.html).
 
 There should be whitespace between paragraphs.
 
