@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-{{ site.baseurl }}{% post_url 2019-03-25-game-of-life %}
+[Hachsecureims : Game of life]({{ site.baseurl }}{% post_url 2019-03-25-game-of-life %})
 
 There should be whitespace between paragraphs.
 
