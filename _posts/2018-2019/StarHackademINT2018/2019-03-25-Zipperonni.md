@@ -23,15 +23,11 @@ flag. Chaque nom de fichier renvoie à un thème dont vous pourrez trouver des i
 utiliser "cewl" pour vous créer des wordlists à partir des pages wikipédia concernés et utiliser "fcrackzip" en utilisant le dictionnaire que
 vous venez de vous créer. Bon courage.
 
-\pagebreak
-
 # Le petit setup
 On commence par créer le dossier Deep avec les élément suivants. a.txt est un fichier vide et Buff, Fini et Pfini sont également vides. rockyou.txt
 contient la wordlist éponyme.
 
 ![Comme ça](Zipperonni1.png)
-
-\pagebreak
 
 # Et c'est parti pour automatiser
 On télécharge ensuite le zip de départ dans Pfini et on peut commencer le bruteforcing de masse en exécutant zipperonni.bash qui contient le code suivant :
@@ -53,8 +49,6 @@ Il supprime ensuite les parenthèses du nom du zip s’il y’en a pour ne pas p
 Grâce a fcrackzip il trouve le bon password (contenu dans a.txt) en les essayant 1 par 1, puis il extrait le zip suivant dans Bufff.
 Il met ensuite le zip qu’il vient de traiter dans Fini et celui qu’il vient d’extraire dans Pfini.
 Enfin il clear a.txt et l’opération peut recommencer.
-
-\pagebreak
 
 A la fin on obtient ceci dans Fini et .secret dans Pfini.
 

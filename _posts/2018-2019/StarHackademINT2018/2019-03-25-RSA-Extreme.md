@@ -18,8 +18,8 @@ On nous donne une commande : `ssh -i rsa_priv_key rsaextreme@157.159.40.163`, un
 
 # Analyse du problème
 On voit donc qu’on doit générer une clé privé à l’aide d’une clé publique. On a donc un N et un e et on cherche a obtenir un d.
-En effet, les RSA fonctionnent de la manière suivante : on génère deux nombres premiers p et q et on note leur produit N. On génère ensuite e et d tels que $ed \equiv 1 [φ(N)]$
-avec $φ(N) = (p-1)(q-1)$. La clef publique est alors le couple (N,e) et la clef privée (N,d).
+En effet, les RSA fonctionnent de la manière suivante : on génère deux nombres premiers p et q et on note leur produit N. On génère ensuite e et d tels que $$ed \equiv 1 [φ(N)]$$
+avec $$φ(N) = (p-1)(q-1)$$. La clef publique est alors le couple (N,e) et la clef privée (N,d).
 
 # C'est parti
 Tout d’abord on doit extraire notre N et notre e grâce à la commande :
@@ -36,11 +36,11 @@ On convertit ensuite le e : « exponent » en base 10 aussi grâce a un site 
 
 # A l'attaque!!
 On se retrouve donc a la recherche d’un d en ayant qu’un N et un e, c’est ici que l’indice intervient, on nous parle de fractions continues, on va donc implémenter une attaque de Wiener.
-Cette attaque consiste a approximer φ(N) par N, en effet on a $N = pq$ et $φ(N) = N – ( p + q ) + 1$ , p et q étant très grands, on peut plus ou moins négliger $( p + q ) + 1$ devant pq.
-Or on sait qu’il existe k tel que $ed = kφ(N) + 1$ puisque $ed \equiv 1 [φ(N)]$.
+Cette attaque consiste a approximer φ(N) par N, en effet on a $$N = pq$$ et $$φ(N) = N – ( p + q ) + 1$$ , p et q étant très grands, on peut plus ou moins négliger $$( p + q ) + 1$$ devant pq.
+Or on sait qu’il existe k tel que $$ed = kφ(N) + 1$$ puisque $$ed \equiv 1 [φ(N)]$$.
 
-On a donc $\frac{e}{φ(N)} - \frac{k}{d} = \frac{1}{dφ(N)}$ : et donc $\frac{e}{N} - \frac{k}{d} = \frac{1}{dN}$ avec l’approximation qu’on s’est permise. $\frac{e}{N}$ et $\frac{k}{d}$ sont donc semblerait il très proches.
-On va donc tenter d’obtenir k et d en s’approchant de plus en plus précisément de $\frac{e}{N}$. Pour cela on va utiliser les fractions continues.
+On a donc $$\frac{e}{φ(N)} - \frac{k}{d} = \frac{1}{dφ(N)}$$ : et donc $$\frac{e}{N} - \frac{k}{d} = \frac{1}{dN}$$ avec l’approximation qu’on s’est permise. $$\frac{e}{N}$$ et $$\frac{k}{d}$$ sont donc semblerait il très proches.
+On va donc tenter d’obtenir k et d en s’approchant de plus en plus précisément de $$\frac{e}{N}$$. Pour cela on va utiliser les fractions continues.
 
 On utilise l’algorithme d’Euclide pour récupérer une suite de coefficients successifs afin de construire notre fraction continue.
 
@@ -49,9 +49,9 @@ Par exemple pour un n = 53 et e = 17
 
 e/n : e = 0*n + 17, la fraction est : 0 et on a alors d = 0, on essaye de générer une clef mais ça na fonctionne pas, on itère ;
 
-n/17 : n = 3*17 + 2, la fraction est : $0 + \frac{1}{3}$ et on a alors d = 3, on essaye de générer une clef mais ça na fonctionne pas, on itère ;
+n/17 : n = 3*17 + 2, la fraction est : $$0 + \frac{1}{3}$$ et on a alors d = 3, on essaye de générer une clef mais ça na fonctionne pas, on itère ;
 
-17/2 : 17 = 8*2 + 1, la fraction est : $0 + \frac{1}{3 + \frac{1}{8}} = \frac{8}{25}$ et on a alors d = 25, on essaye de générer une clef mais ça na fonctionne pas, on itère ;
+17/2 : 17 = 8*2 + 1, la fraction est : $$0 + \frac{1}{3 + \frac{1}{8}} = \frac{8}{25}$$ et on a alors d = 25, on essaye de générer une clef mais ça na fonctionne pas, on itère ;
 et cætera et cætera.
 
 # L'implémentation
