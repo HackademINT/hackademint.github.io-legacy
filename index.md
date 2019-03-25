@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./_posts/game_of_life.html).
+[Game-of-life Writeup]({{ site.baseurl }}{% post_url 2019-03-25-game-of-life.md %})
 
 There should be whitespace between paragraphs.
 
