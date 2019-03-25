@@ -26,7 +26,7 @@ Tout d’abord on doit extraire notre N et notre e grâce à la commande :
 
 `openssl rsa -in rsa_pub_key -pubin -text -m`
 
-![Voilou le N et le e en hexadécimal](RSAextreme.png)
+![Voilou le N et le e en hexadécimal](/assets/images/RSAextreme.png)
 
 On obtient donc N : le « modulus » qu’on obtient en base 10 grâce à la commande :
 

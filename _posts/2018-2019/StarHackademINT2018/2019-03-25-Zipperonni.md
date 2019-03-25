@@ -27,7 +27,7 @@ vous venez de vous créer. Bon courage.
 On commence par créer le dossier Deep avec les élément suivants. a.txt est un fichier vide et Buff, Fini et Pfini sont également vides. rockyou.txt
 contient la wordlist éponyme.
 
-![Comme ça](Zipperonni1.png)
+![Comme ça](/assets/images/Zipperonni1.png)
 
 # Et c'est parti pour automatiser
 On télécharge ensuite le zip de départ dans Pfini et on peut commencer le bruteforcing de masse en exécutant zipperonni.bash qui contient le code suivant :
@@ -52,4 +52,4 @@ Enfin il clear a.txt et l’opération peut recommencer.
 
 A la fin on obtient ceci dans Fini et .secret dans Pfini.
 
-![Ca donne ça normalement](Zipperonni2.png)
+![Ca donne ça normalement](/assets/images/Zipperonni2.png)
