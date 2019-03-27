@@ -7,8 +7,6 @@ lang: 'fr-FR'
 github:
   repository_url: 'https://github.com/HackademINT/hackademint.github.io'
 
-baseurl: /
-
 source: .
 destination: ./_site
 permalink: /:title
