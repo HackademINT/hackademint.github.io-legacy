@@ -14,7 +14,7 @@ de répéter l'opération, j'ai donc mis mon code de résolution dans une boucle
 
 # Solution
 
-```
+```python
 import time
 import math
 import requests
