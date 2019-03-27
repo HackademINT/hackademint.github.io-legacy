@@ -1,5 +1,32 @@
-title: Midnight theme
-description: Midnight is a theme for GitHub Pages.
-show_downloads: true
+title: HackademINT
+description: HackademINT website
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
+lang: 'fr-FR'
+github:
+  repository_url: 'https://github.com/HackademINT/hackademint.github.io'
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+
+# Custom variables
+owner : "HackademINT"
+year : "2019"
