@@ -16,7 +16,7 @@ baseurl: /
 source: .
 destination: ./_site
 permalink: /:title
-paginate: 3
+paginate: 100
 paginate_path: /page/:num/
 
 defaults:
