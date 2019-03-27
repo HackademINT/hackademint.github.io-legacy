@@ -1,5 +1,6 @@
 ---
 title: "Game-of-life"
+ctf: "HackSecuReims"
 published: true
 ---
 
