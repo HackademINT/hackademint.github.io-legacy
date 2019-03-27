@@ -6,6 +6,12 @@ theme: jekyll-theme-midnight
 lang: 'fr-FR'
 github:
   repository_url: 'https://github.com/HackademINT/hackademint.github.io'
+author:
+  name: "HackademINT"
+  email: "hackademint@listes.minet.net"
+  url: "https://hackademint.org"
+
+baseurl: /
 
 source: .
 destination: ./_site
@@ -24,7 +30,7 @@ defaults:
 future: true
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
 
-# Custom variables
 owner : "HackademINT"
 year : "2019"

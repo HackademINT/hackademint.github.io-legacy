@@ -1,16 +1,6 @@
 ---
 title: "Zipperonni"
-subtitle: "Zipperonni"
-author: "Headorteil"
-team: "HackademINT"
-titlepage: true
-toc: true
-toc-own-page: true
-titlepage-color: "607D8B"
-titlepage-text-color: "FFFFFF"
-titlepage-rule-color: "FFFFFF"
-titlepage-rule-height: 2
-colorlinks: true
+published: true
 ---
 
 # Le sujet

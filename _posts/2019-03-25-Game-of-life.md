@@ -1,16 +1,6 @@
 ---
-title: "Default writeup"
-subtitle: "speed(3)"
-author: "Headorteil"
-team: "HackademINT"
-titlepage: true
-toc: true
-toc-own-page: true
-titlepage-color: "607D8B"
-titlepage-text-color: "FFFFFF"
-titlepage-rule-color: "FFFFFF"
-titlepage-rule-height: 2
-colorlinks: true
+title: "Game-of-life"
+published: true
 ---
 
 # Introduction
