@@ -7,7 +7,7 @@ annee: "2019"
 team: "HackademINT"
 ---
 
-# Enoncé
+# > Enoncé
 
 Serez-vous capable de battre la machine ? Celle-ci est programmée pour vous envoyer un message chiffré. Votre tâche est de déchiffrer ce challenge et le renvoyer à la machine en moins de 2 secondes.
 
@@ -16,7 +16,10 @@ Une copie du programme vous est fournie.
 nc quals.shadow-league.org 5887
 
 
-# Analyse du problème
+
+
+# > Analyse du problème
+
 
 ## But du challenge
 
@@ -26,20 +29,25 @@ Voici une capture de la connection au challenge:
 
 ![Test connexion](/assets/images/Challenge1.png)
 
+
 ## Comprendre le fonctionnement côté serveur
 
-On dispose d’une copie du programme côté serveur [ici](/writeup-scripts/Sogeti/challenge_debug.py) pour comprendre le fonctionnement du chiffrement.
+On dispose d’une copie du programme côté serveur [ici](/writeup-scripts/Sogeti/Challenge/challenge_debug.py) pour comprendre le fonctionnement du chiffrement.
 
 On observe que le programme commence par générer le message aléatoire de longueur 64 constitué de lettres et de chiffres. Une clé secrète est ensuite générée, le hash SHA256 de cette clé secrète est utilisé en tant que clé pour chiffrer en AES CBC le message initialement généré. Le programme nous affiche l’hexa du message ainsi chiffré. Enfin, le programme vérifie que le message que nous lui envoyons correspond bien à celui qui a été généré et nous donne le flag le cas échéant.
 
 
-# Résolution
+
+
+# > Résolution
 
 On comprend que le point clé du challenge est de retrouver la clé secrète utilisée pour chiffrer le message en AES CBC (il n’y a pas d'autre problème puisque le vecteur d’initialisation est donné dans le script).
+
 
 ## Des nombres aléatoires?
 
 Pour cela, on s’intéresse tout d’abord à l’étape de génération de la clé secrète. On comprend que la clé secrète, initialement à la valeur 0xffffffff,  est xorée avec dix valeurs générées aléatoirement. Toutefois, on observe que la fonction random.seed() est utilisée pour initialiser le générateur de nombres pseudo-aléatoires. Chaque seed entrainant une certaine séquence de nombres “aléatoires” définis et le seed étant défini ici par une valeur aléatoire entre 1 et 10000, il n’y a donc que dix mille possibilités différentes pour la séquence de dix nombres “aléatoires” générés pour xorer la clé secrète.
+
 
 ## Un affichage oublié !!
 
@@ -53,11 +61,14 @@ doivent attirer notre attention.
 Cet affichage, malencontreusement oublié là par la production, nous permet de déterminer le seed qui a été utilisé. Il suffit alors de tester chaque valeur de seed entre 1 et 10000 jusqu’à trouver celle qui nous permet de trouver une clé secrète dont le début et la fin correspondent aux morceaux affichés. On peut ainsi obtenir la clé secrète en entier !
 
 
-# Proposition de solution
+
+
+# > Proposition de solution
+
 
 ## Script
 
-Voici une proposition de [script](/writeup-scripts/Sogeti/challenge.py) pour résoudre ce challenge:
+Voici une proposition de [script](/writeup-scripts/Sogeti/Challenge/challenge.py) pour résoudre ce challenge:
 ```
 #!/usr/bin/python2
 
@@ -93,6 +104,8 @@ decrypted_challenge = encryption_suite.decrypt(challenge)
 r.sendline(decrypted_challenge.encode())
 print(r.recvuntil('}'))
 ```
+
+
 ## Exécution
 
 L’exécution renvoie:
@@ -111,6 +124,7 @@ Give me the challenge (2s) > ufkQQpGmif4mQxKXxeePYtpGXZSB2ldeQDvlXQNvfyvY1yG84ZI
 [+] Here is your flag : SCE{Str0ng_s3eds_are_adv1s3d...}
 [*] Closed connection to quals.shadow-league.org port 5002
 ```
+
 
 ## Flag
 
