@@ -1,12 +1,18 @@
+---
+title: "NoSourceJr"
+ctf: "EasyCTF"
+annee: "2018"
+published: true
+---
 <br />
-<a href="WRITEUPS/2017-2018/EasyCTF/NoSourceJr/file.js">download file.js</a>
+<a href="/writeup-scripts/2017-2018/EasyCTF/NoSourceJr/file.js">download file.js</a>
 <br />
-<a href="WRITEUPS/2017-2018/EasyCTF/NoSourceJr/solve.py">download solve.py</a>
+<a href="/writeup-scripts/2017-2018/EasyCTF/NoSourceJr/solve.py">download solve.py</a>
 <br />
 <br />
 From dev tools we get :
 <br />
-<pre><code class="hljs javascript">
+```js
 window.encryptionKey = 'nosource';
 
 function process(a, b) {
@@ -35,12 +41,12 @@ function process(a, b) {
     }
   });
 })(window);
+```
 
-</code></pre>
 chaine is the flag decoded from base64 to ascii number equivalence you can chack on asciitohex website it is xor cipher
 <br />
 <br />
-<pre><code class="hljs python">
+```python
 #! /usr/bin/python
 chaine="22 14 6 9 26 7 9 14 19 22 29 8 7 17 13 0 78 42 18 12 7 48 27 31 14 44 9 69 2 38 29 95 6 64 12 1 12 70 47 87 93 65 8"
 L=chaine.split(" ")
@@ -66,5 +72,4 @@ s=""
 for u in X:
     s+=str(chr(u))
 print s
-
-</code></pre>
+```
