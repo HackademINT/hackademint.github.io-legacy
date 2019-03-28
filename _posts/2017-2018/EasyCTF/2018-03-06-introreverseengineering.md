@@ -1,8 +1,14 @@
+---
+title: "IntroReverseEngineering"
+ctf: "EasyCTF"
+annee: "2018"
+published: true
+---
 <br />
-<a href="WRITEUPS/2017-2018/EasyCTF/IntroReverseEngineering/solve.py">download solve.py</a>
+<a href="/writeup-scripts/2017-2018/EasyCTF/IntroReverseEngineering/solve.py">download solve.py</a>
 <br />
 <br />
-<pre><code class="hljs python">
+```python
 #!/usr/bin/env python3
 import binascii
 key = "JDClkFeX"
@@ -48,5 +54,4 @@ def resolve(cipherhex,key):
     return flag
 
 print (resolve(cipherhex,key))
-
-</code></pre>
+```
