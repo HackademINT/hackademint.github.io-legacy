@@ -1,0 +1,27 @@
+git clone https://github.com/wjlandryiii/crackvim
+cd crackvim
+make
+cat README.md
+"""
+Dictionary Example
+------------------
+
+    $ ./crackvim -d /usr/share/dict/words dict_test.txt
+    loaded dict_test.txt: 54 bytes
+    searching for ascii text files
+    using dictionary file: /usr/share/dict/words
+    
+    Possible password: 'unobjectionableness'
+    Plaintext: sell all shares before the board meeting.
+"""
+./crackvim -d rockyou.txt ../loremipsum.txt
+"""
+loaded ../loremipsum.txt: 778 bytes
+searching for ascii text files
+using dictionary file: /tmp/GoDeeper/rockyou.txt
+
+Possible password: '1337'
+Plaintext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+viverra dolor urna, non dapibus urna vehicula sit amet. Ve
+"""
+

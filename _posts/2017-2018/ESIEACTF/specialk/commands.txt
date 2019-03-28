@@ -1,0 +1,14 @@
+binwalk special-k.png
+binwalk -e special-k.png will not help
+"""
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 1000 x 667, 8-bit/color RGB, non-interlaced
+159           0x9F            Zlib compressed data, best compression
+837364        0xCC6F4         PNG image, 912 x 500, 8-bit grayscale, non-interlaced
+837479        0xCC767         Zlib compressed data, best compression
+
+"""
+man dd -->  skip=N: skip N ibs-sized blocks at start of input
+dd if=special-k.png skip=1 of=flag.png bs=837364
