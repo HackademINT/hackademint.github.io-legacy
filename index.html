@@ -2,12 +2,56 @@
 layout: default
 ---
 
-<ul>
+{% assign annees = '' | split: '' %}
+{% assign ctfs = '' | split: '' %}
+{% assign anneed = '' | split: '' %}
+{% assign ctfd = '' | split: '' %}
+{% assign delim = ',' | split: '' %}
+
+{% for post in paginator.posts %}
+
+    {% unless anneed contains post.annee %}
+        {% assign annee = post.annee | split: '' %}
+        {% assign annees = annees | concat: annee | concat: delim | join: '' %}
+    {% endunless %}
+        {% assign anneed = annees | split: ',' %}
+
+    {% unless ctfd contains post.ctf %}
+        {% assign ctf = post.ctf | split: '' %}
+        {% assign ctfs = ctfs | concat: ctf | concat: delim | join: ''%}
+    {% endunless %}
+        {% assign ctfd = ctfs | split: ',' %}
+
+{% endfor %}
+
+{% assign annees = annees | split: ',' | sort %}
+{% assign ctfs = ctfs | split: ',' %}
+{% assign test = false %}
+
+{% for annee in annees %}
+  <h1>{{ annee }}: </h1>
+  {% for ctf in ctfs %}
     {% for post in paginator.posts %}
+      {% if post.annee == annee and post.ctf == ctf %}
+        {% assign test = true %}
+      {% endif %}
+    {% endfor %}
+    {% if test == true %}
+      <h2>__{{ ctf }}</h2>
+      <ul>
+      {% for post in paginator.posts %}
+        {% if post.annee == annee and post.ctf == ctf %}
       <li>
-          <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.ctf }} - {{ post.title }}</a></h2>
+          <h3><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h3>
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
           <p>{{ post.content | strip_html | truncatewords:50 }}</p>
       </li>
-    {% endfor %}
-</ul>
+
+	{% endif %}
+      {% endfor %}
+      </ul>
+    {% endif %}
+    {% assign test = false %}
+  {% endfor %}
+{% endfor %}
+

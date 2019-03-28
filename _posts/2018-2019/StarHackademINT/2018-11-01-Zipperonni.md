@@ -1,6 +1,7 @@
 ---
 title: "Zipperonni"
 ctf: "StarHackademINT"
+annee: "2018"
 published: true
 ---
 

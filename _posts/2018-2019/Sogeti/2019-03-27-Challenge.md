@@ -3,6 +3,7 @@ title: "Challenge Accepted !"
 subtitle: "Challenge tiré du CTF de qualification pour le Cyberescape de Sogeti"
 author: "patate"
 ctf: "Sogeti"
+annee: "2019"
 team: "HackademINT"
 ---
 
@@ -19,7 +20,7 @@ nc quals.shadow-league.org 5887
 
 ## But du challenge
 
-Le but du challenge est de se connecter à une machine distante afin d’y récupérer un message chiffré et de renvoyer le message déchiffré en moins de 2 secondes. 
+Le but du challenge est de se connecter à une machine distante afin d’y récupérer un message chiffré et de renvoyer le message déchiffré en moins de 2 secondes.
 
 Voici une capture de la connection au challenge:
 
@@ -47,7 +48,7 @@ Il faudrait donc qu’on retrouve ce seed mais il semble a priori impossible de 
 # @TODO REMOVE THIS IN PRODUCTION !
 pprint("DEBUG - Secret key is %s...%s" % (secret.hexdigest()[:15], secret.hexdigest()[-15:]), "WARNING")
 ```
-doivent attirer notre attention. 
+doivent attirer notre attention.
 
 Cet affichage, malencontreusement oublié là par la production, nous permet de déterminer le seed qui a été utilisé. Il suffit alors de tester chaque valeur de seed entre 1 et 10000 jusqu’à trouver celle qui nous permet de trouver une clé secrète dont le début et la fin correspondent aux morceaux affichés. On peut ainsi obtenir la clé secrète en entier !
 
@@ -102,10 +103,10 @@ $ ./prog.py
 [+] Seed generated !
 [*] Generating secret key
 [+] Secret key generated !
-[!] DEBUG - Secret key is 
+[!] DEBUG - Secret key is
 3d3fffde0f03d49...a8507c459068ea6
 
-[+] Encrypted Challenge : 
+[+] Encrypted Challenge :
 Give me the challenge (2s) > ufkQQpGmif4mQxKXxeePYtpGXZSB2ldeQDvlXQNvfyvY1yG84ZIK8qXgyMaoZmgR
 [+] Here is your flag : SCE{Str0ng_s3eds_are_adv1s3d...}
 [*] Closed connection to quals.shadow-league.org port 5002

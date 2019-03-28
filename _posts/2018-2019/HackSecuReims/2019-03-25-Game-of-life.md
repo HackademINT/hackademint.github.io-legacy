@@ -1,6 +1,7 @@
 ---
 title: "Game-of-life"
 ctf: "HackSecuReims"
+annee: "2019"
 published: true
 ---
 
@@ -77,11 +78,11 @@ while 1:
                 a = viv(voisins(i, j, taille))
                 if M[i][j] == 0 and a == 3:
                     N[i][j] = 1
-                elif M[i][j] == 1 and a < 2: 
+                elif M[i][j] == 1 and a < 2:
                     N[i][j] = 0
-                elif M[i][j] == 1 and (a == 2 or a == 3): 
+                elif M[i][j] == 1 and (a == 2 or a == 3):
                     N[i][j] = 1
-                elif M[i][j] == 1 and a > 3: 
+                elif M[i][j] == 1 and a > 3:
                     N[i][j] = 0
         M = numpy.copy(N)
 
