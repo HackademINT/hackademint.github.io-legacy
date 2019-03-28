@@ -1,8 +1,14 @@
+---
+title: "Substitute"
+ctf: "EasyCTF"
+annee: "2018"
+published: true
+---
 <br />
-<a href="WRITEUPS/2017-2018/EasyCTF/Substitute/solve.py">download solve.py</a>
+<a href="/writeup-scripts/2017-2018/EasyCTF/Substitute/solve.py">download solve.py</a>
 <br />
 <br />
-<pre><code class="hljs python">
+```python
 #! /usr/bin/python
 chaine="FI! XJWCYIUSINLIGH QGLE TAMC A XCU NSAO NID EPC WEN AXM JL EIEASSF HDIGM IN JEL JXOCXGJEF. EPJL JL ASLI EPC LCWIXM HDIYSCT CZCD TAMC NID CALFWEN. PCDC: CALFWEN{EPJL_JL_AX_CALF_NSAO_EI_OGCLL} GLC WAHJEAS SCEECDL."
 print "-------"
@@ -49,5 +55,4 @@ print "-------"
 
 flag=flag[152:190].lower()
 print flag
-
-</code></pre>
+```
