@@ -1,0 +1,4 @@
+ENCODE : 
+http://jscrew.it/
+DECODE :
+http://ooze.ninja/javascript/poisonjs/
