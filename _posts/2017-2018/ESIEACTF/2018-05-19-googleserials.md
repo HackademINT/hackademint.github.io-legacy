@@ -1,13 +1,20 @@
+---
+title: "googleserials"
+ctf: "ESIEACTF"
+annee: "2018"
+published: true
+---
+
 <br />
-<a href="WRITEUPS/2017-2018/ESIEACTF/googleserials/source_code.py">download source_code.py</a>
+<a href="/writeup-scripts/2017-2018/ESIEACTF/googleserials/source_code.py">download source_code.py</a>
 <br />
-<a href="WRITEUPS/2017-2018/ESIEACTF/googleserials/googleserials.py">download googleserials.py</a>
+<a href="/writeup-scripts/2017-2018/ESIEACTF/googleserials/googleserials.py">download googleserials.py</a>
 <br />
 <br />
 Un site web demandait de trouver deux 'google serials' vérifiant les conditions du code source (en python)
 <br />
 source_code.py
-<pre><code class="hljs python">
+```python
 #! /usr/bin/env python3
 def are_same(serial):
 	if (serial[0] != serial[1] and
@@ -96,5 +103,4 @@ def find_serial():
                 print(check_serial(serial))
 
 find_serial()
-
-</code></pre>
+```
