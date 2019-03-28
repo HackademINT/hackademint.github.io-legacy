@@ -24,7 +24,7 @@ layout: default
 
 {% endfor %}
 
-{% assign annees = annees | split: ',' | sort %}
+{% assign annees = annees | split: ',' | sort | reverse %}
 {% assign ctfs = ctfs | split: ',' %}
 {% assign test = false %}
 
