@@ -1,7 +1,14 @@
+---
+title: "restrictedshamirarea"
+ctf: "ESIEACTF"
+annee: "2018"
+published: true
+---
+
 <br />
-<a href="WRITEUPS/2017-2018/ESIEACTF/restrictedshamirarea/data.txt">download data.txt</a>
+<a href="/writeup-scripts/2017-2018/ESIEACTF/restrictedshamirarea/data.txt">download data.txt</a>
 <br />
-<a href="WRITEUPS/2017-2018/ESIEACTF/restrictedshamirarea/solve.py">download solve.py</a>
+<a href="/writeup-scripts/2017-2018/ESIEACTF/restrictedshamirarea/solve.py">download solve.py</a>
 <br />
 <br />
 En premier, on enlève les caractères parasites dans le fichier data.txt: les données sont des entiers, des lettres s'y sont glissées 'WHYUDOTHIS'
@@ -11,7 +18,7 @@ Exercice classique de RSA: Attention toutefois à ce que le nombre de caractère
 Il est important de ne pas utiliser systématiquement l'attribut <code>.decode()</code> sur des bytes dans le cas ou les caractères ne peuvent être affichés.
 <br />
 <br />
-<pre><code class="hljs python">
+```
 #! /usr/bin/env python3
 import gmpy
 import binascii
@@ -38,5 +45,4 @@ def main():
     print(x.group(0).decode())
 
 main()
-
-</code></pre>
+```
