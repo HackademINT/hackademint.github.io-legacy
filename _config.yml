@@ -15,7 +15,7 @@ baseurl: /
 
 source: .
 destination: ./_site
-permalink: /404
+permalink: /
 paginate: 100
 paginate_path: /page/:num/
 
