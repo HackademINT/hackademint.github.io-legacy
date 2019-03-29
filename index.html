@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<script src="/menu.js"></script>
+
+<style>
+.cliquable {
+  color: red;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.retractable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+
 {% assign annees = '' | split: '' %}
 {% assign ctfs = '' | split: '' %}
 {% assign anneed = '' | split: '' %}
@@ -30,6 +46,7 @@ layout: default
 
 <h1 align="center"><b>Writeups</b></h1>
 
+
 {% for annee in annees %}
   <h1>{{ annee }}: </h1>
   {% for ctf in ctfs %}
@@ -39,13 +56,14 @@ layout: default
       {% endif %}
     {% endfor %}
     {% if test == true %}
-      <h2>__{{ ctf }}</h2>
-      <ul>
+    <h2 class="cliquable">_{{ ctf }}</h2>
+      <ul class="retractable">
       {% for post in paginator.posts %}
         {% if post.annee == annee and post.ctf == ctf %}
       <li>
-          <h3><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h3>
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+	  <h3>
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+	  </h3>
       </li>
 
 	{% endif %}
@@ -55,4 +73,3 @@ layout: default
     {% assign test = false %}
   {% endfor %}
 {% endfor %}
-
