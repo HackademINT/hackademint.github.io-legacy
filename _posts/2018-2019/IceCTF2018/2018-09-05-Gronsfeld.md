@@ -3,6 +3,7 @@ title: "Gronsfeld"
 ctf: "IceCTF2018"
 annee: "2018"
 published: true
+author: "Bdenneu"
 ---
 # Description
 Dans ce challenge de cryptographie, nous disposons d'une image avec la fusion de garfield et d'une personnage de serie, avec en haut à droite qui s'apparente à une date et en bas, le flag chiffré.
