@@ -32,7 +32,7 @@ Voici une capture de la connection au challenge:
 
 ## Comprendre le fonctionnement côté serveur
 
-On dispose d’une copie du programme côté serveur [ici](/writeup-scripts/Sogeti/Challenge/challenge_debug.py) pour comprendre le fonctionnement du chiffrement.
+On dispose d’une copie du programme côté serveur [ici](/writeup-scripts/2018-2019/Sogeti/Challenge/challenge_debug.py) pour comprendre le fonctionnement du chiffrement.
 
 On observe que le programme commence par générer le message aléatoire de longueur 64 constitué de lettres et de chiffres. Une clé secrète est ensuite générée, le hash SHA256 de cette clé secrète est utilisé en tant que clé pour chiffrer en AES CBC le message initialement généré. Le programme nous affiche l’hexa du message ainsi chiffré. Enfin, le programme vérifie que le message que nous lui envoyons correspond bien à celui qui a été généré et nous donne le flag le cas échéant.
 
@@ -68,7 +68,7 @@ Cet affichage, malencontreusement oublié là par la production, nous permet de 
 
 ## Script
 
-Voici une proposition de [script](/writeup-scripts/Sogeti/Challenge/challenge.py) pour résoudre ce challenge:
+Voici une proposition de [script](/writeup-scripts/2018-2019/Sogeti/Challenge/challenge.py) pour résoudre ce challenge:
 ```
 #!/usr/bin/python2
 
