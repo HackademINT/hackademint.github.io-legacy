@@ -2,6 +2,7 @@
 title: "Game-of-life"
 ctf: "HackSecuReims"
 annee: "2019"
+author: "Headorteil"
 published: true
 ---
 
