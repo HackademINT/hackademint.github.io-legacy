@@ -1,6 +1,6 @@
 ---
-title: "Rsaaay"
-ctf: "REV.TamuCTF"
+title: "CRYPTO.Rsaaay"
+ctf: "TamuCTF"
 annee: "2019"
 published: true
 author: "Bdenneu"
