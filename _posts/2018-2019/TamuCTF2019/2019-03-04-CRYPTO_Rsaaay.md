@@ -1,6 +1,6 @@
 ---
 title: "Rsaaay"
-ctf: "REV_TamuCTF"
+ctf: "REV.TamuCTF"
 annee: "2019"
 published: true
 author: "Bdenneu"
