@@ -15,7 +15,7 @@ Accés au binaire: [binaire](/_posts/2018-2019/TamuCTF2019/source/noccbytes)
 
 Décomposons le binaire:
 
-![Obfuscaxor2](/assets/images/TamuCTF2019/tamuctf2019_noccbytes1.png)
+![Obfuscaxor1](/assets/images/TamuCTF2019/tamuctf2019_noccbytes1.png)
 
 Le programme demande un mot de passe, lance la fonction passCheck_char, et si la sortie est 1, affiche le flag.
 
@@ -24,11 +24,11 @@ Le programme demande un mot de passe, lance la fonction passCheck_char, et si la
 Le programme compare l'entrée et une chaine en mémoire. Si la valeur est la même, la sortie est 1.
 On va donc voir quelles sont les valeurs comparées.
 
-![Obfuscaxor2](/assets/images/TamuCTF2019/tamuctf2019_noccbytes3.png)
+![Obfuscaxor3](/assets/images/TamuCTF2019/tamuctf2019_noccbytes3.png)
 
 L'entrée est comparé avec "WattoSays". C'est le mot de passe.
 
-![Obfuscaxor2](/assets/images/TamuCTF2019/tamuctf2019_noccbytes4.png)
+![Obfuscaxor4](/assets/images/TamuCTF2019/tamuctf2019_noccbytes4.png)
 
 On se connecte et on récupere le flag.
  
