@@ -7,7 +7,7 @@ author: "Bdenneu"
 ---
 # Description
 Le titre du challenge insinue fortement qu'il s'agit d'un challenge de RSA. On a accès à un couple de nombre et à une suite de nombre dite secrete.
-![Rsaaay](/assets/images/tamuctf2019_rsaaay.png)
+![Rsaaay](/assets/images/TamuCTF2019/tamuctf2019_rsaaay.png)
 
 # Solution
  On peut supposer vu la taille des premiers nombres qu'il s'agit de n (2531257) et e (43). Comme n est petit, on peut le factoriser en p (509) et q (4973). On inverse le rsa pour chaque nombre. Il s'agit d'une suite des codes ascii du flag.

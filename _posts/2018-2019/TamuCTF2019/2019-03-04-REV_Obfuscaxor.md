@@ -15,18 +15,18 @@ Accés au binaire: [binaire](/_posts/2018-2019/TamuCTF2019/source/obfuscaxor)
 
 Décomposons le binaire:
 
-![Obfuscaxor1](/assets/images/tamuctf2019_obfuscaxor1.png)
+![Obfuscaxor1](/assets/images/TamuCTF2019/tamuctf2019_obfuscaxor1.png)
 
 Le programme demande une clé produit, lance la fonction verify_key_char, et si la sortie est 1, affiche le flag
 
-![Obfuscaxor2](/assets/images/tamuctf2019_obfuscaxor2.png)
+![Obfuscaxor2](/assets/images/TamuCTF2019/tamuctf2019_obfuscaxor2.png)
 
 La fonction vérifie que la longueur de la clé produit est comprise entre 9 et 64, l'encode, puis la compare avec une valeur en mémoire. Le titre nous incite à penser à un xor. Il faut donc récupérer une clé, la même clé chiffré, ainsi que la chaine attendue (celle en mémoire).
 En xorant les trois, on obtiendra la clé produit valide.
 
-![Obfuscaxor3](/assets/images/tamuctf2019_obfuscaxor4.png)
+![Obfuscaxor3](/assets/images/TamuCTF2019/tamuctf2019_obfuscaxor4.png)
 
-![Obfuscaxor4](/assets/images/tamuctf2019_obfuscaxor3.png)
+![Obfuscaxor4](/assets/images/TamuCTF2019/tamuctf2019_obfuscaxor3.png)
 
 On utilise ce script (attention à la lecture de la stack):
 
@@ -45,7 +45,7 @@ print(key)
 
 On obtient alors la clé:
 
-![Obfuscaxor5](/assets/images/tamuctf2019_obfuscaxor5.png)
+![Obfuscaxor5](/assets/images/TamuCTF2019/tamuctf2019_obfuscaxor5.png)
 
 # Le flag
 

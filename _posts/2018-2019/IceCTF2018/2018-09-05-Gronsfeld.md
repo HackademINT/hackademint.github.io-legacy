@@ -8,7 +8,7 @@ author: "Bdenneu"
 # Description
 Dans ce challenge de cryptographie, nous disposons d'une image avec la fusion de garfield et d'une personnage de serie, avec en haut à droite qui s'apparente à une date et en bas, le flag chiffré.
 
-![Gronsfeld](/assets/images/icectf2018_garfeld.png)
+![Gronsfeld](/assets/images/IceCTF2018/icectf2018_garfeld.png)
 
 # Solution
 Il s'avère que le nom de l'épreuve est un calembour avec la méthode de chiffrement de Gronsfeld. La clé est le nombre en haut à droite. J'ai utilisé ce script pour decoder le flag:
