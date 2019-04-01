@@ -2,7 +2,7 @@
 title: "Challenge Accepted !"
 subtitle: "Challenge tiré du CTF de qualification pour le Cyberescape de Sogeti"
 author: "patate"
-ctf: "Sogeti"
+ctf: "SogetiQuals"
 annee: "2019"
 team: "HackademINT"
 ---
