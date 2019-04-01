@@ -14,7 +14,6 @@ def compute_digit(s, p, p2, digit):
     f = open('./res.txt')
     res = f.read()
     f.close()
-    payload = {'cametu': str(res)[:-1]}
     pin = "0"*(3-len(str(digit))) + str(digit)
     data = dict(pin=pin, answer=str(res)[:-1])
     p2.status(str(data))
