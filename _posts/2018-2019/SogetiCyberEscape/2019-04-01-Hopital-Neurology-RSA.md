@@ -56,7 +56,7 @@ dumpkey
 [*] q: 3841044877
 ```
 
-On calcule m sachant que `m^e[n] = c` et que `c^d[n] = m`
+On calcule m sachant que **m^e[n] = c** et que **c^d[n] = m**
 
 ```bash
 [root@spider SogetiCyberEscape]# python3
