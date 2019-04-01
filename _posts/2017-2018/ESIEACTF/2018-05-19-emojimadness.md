@@ -2,6 +2,7 @@
 title: "Emojimadness"
 ctf: "ESIEACTF"
 annee: "2018"
+author: "zTeeed"
 published: true
 ---
 

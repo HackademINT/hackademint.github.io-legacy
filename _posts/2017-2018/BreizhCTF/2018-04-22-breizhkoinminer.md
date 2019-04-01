@@ -2,6 +2,7 @@
 title: "breizhkoinminer"
 ctf: "BreizhCTF"
 annee: "2018"
+author: "zTeeed"
 published: true
 ---
 <br />

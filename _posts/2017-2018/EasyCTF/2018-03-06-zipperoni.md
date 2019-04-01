@@ -2,6 +2,7 @@
 title: "zipperoni"
 ctf: "EasyCTF"
 annee: "2018"
+author: "zTeeed"
 published: true
 ---
 <br />

@@ -2,6 +2,7 @@
 title: "oracledsa"
 ctf: "ESIEACTF"
 annee: "2018"
+author: "zTeeed"
 published: true
 ---
 

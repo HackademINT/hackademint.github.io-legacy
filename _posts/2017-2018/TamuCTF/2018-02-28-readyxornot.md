@@ -2,6 +2,7 @@
 title: "readyXornot"
 ctf: "TamuCTF"
 annee: "2018"
+author: "zTeeed"
 published: true
 ---
 
