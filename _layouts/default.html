@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -22,26 +25,39 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   </head>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">HackademINT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="downloads"><a href="/">HOME</a></li>
+        <li class="downloads"><a href="/team">TEAM</a></li>
+        <li class="downloads"><a href="/gate">GATE®</a></li>
+        <li class="downloads"><a href="/sponsors">SPONSORS</a></li>
+        <li class="downloads"><a href="/formations">FORMATIONS</a></li>
+        {% if site.show_downloads %}
+        <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
+        <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
+        <li class="title">DOWNLOADS</li>
+        {% endif %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ site.github.repository_url }}"><i class="fab
+              fa-github"></i> GITHUB</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork">
-            <a style="padding: 5px" href="{{ site.github.repository_url }}">
-            <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li class="downloads"><a href="/formations">FORMATIONS</a></li>
-          <li class="downloads"><a href="/sponsors">SPONSORS</a></li>
-          <li class="downloads"><a href="/gate">GATE®</a></li>
-          <li class="downloads"><a href="/team">TEAM</a></li>
-          <li class="downloads"><a href="/">HOME</a></li>
-          {% if site.show_downloads %}
-          <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-          <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-          {% endif %}
-        </nav>
-      </div><!-- end header -->
 
     <div class="wrapper">
 
