@@ -24,7 +24,7 @@ layout: default
 {% assign ctfd = '' | split: '' %}
 {% assign delim = ',' | split: '' %}
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 
     {% unless anneed contains post.annee %}
         {% assign annee = post.annee | split: '' %}
@@ -50,7 +50,7 @@ layout: default
 {% for annee in annees %}
   <h1>{{ annee }}: </h1>
   {% for ctf in ctfs %}
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       {% if post.annee == annee and post.ctf == ctf %}
         {% assign test = true %}
       {% endif %}
@@ -58,7 +58,7 @@ layout: default
     {% if test == true %}
     <h2 class="cliquable">_{{ ctf }}</h2>
       <ul class="retractable">
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
         {% if post.annee == annee and post.ctf == ctf %}
       <li>
 	  <h3>
