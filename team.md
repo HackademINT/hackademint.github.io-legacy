@@ -42,10 +42,7 @@ layout: default
       </div>
       <div class="7u 12u$(medium)">
 	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" />
-      </div>
-    </div>
-  </div>
-</div>
+
 <!-- 2017 2018 -->
 <span class="image fit main"><img src="" alt="" /></span>
 <div class="content">
@@ -56,6 +53,7 @@ layout: default
       </div>
       <div class="6u 12u$(medium)">
 	<ul style="list-style-type:none">
+
 	  <li>
 	    Stevan Coroller (occuria) - Président<br />
 	    <!--
@@ -70,9 +68,10 @@ layout: default
 	  </li>
 	  <li>
 	    Nicolas Bonnet (insolentbacon) - Trésorier<br />
-	    <a href="https://github.com/bonnetn/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo"></a>
-	    <a href="https://www.root-me.org/MtBtDjM-DH7A-Kv" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo"></a>
+	    <a href="https://github.com/bonnetn/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://www.root-me.org/MtBtDjM-DH7A-Kv" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
 	  </li>
+
 	</ul>
       </div>
     </div>
