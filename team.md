@@ -2,7 +2,6 @@
 layout: default
 ---
 <!-- 2019 2020 -->
-<span class="image fit main"><img src="" alt="" /></span>
 <div class="content">
   <div class="container">
     <div class="row">
