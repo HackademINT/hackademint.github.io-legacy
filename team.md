@@ -1,25 +1,7 @@
 ---
 layout: default
 ---
-<!-- 2019 2020 -->
-<div class="content">
-  <div class="container">
-    <div class="row">
-      <div class="4u 12u$(medium)">
-	<h2 align="center">Bureau 2019-2020</h2>
-      </div>
-      <div class="6u 12u$(medium)">
-	<ul style="list-style-type:none">
-	  <li>
-	    Bruno Dennemont (bdenneu) - Vice-Président<br />
-	  <a href="https://github.com/Bdenneu/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-       	  <a href="https://www.root-me.org/Bdenneu" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
-	  </li>
-	</ul>
-      </div>
-    </div>
-  </div>
-</div>
+
 <!-- 2018 2019 -->
 <div class="content">
   <div class="container">
