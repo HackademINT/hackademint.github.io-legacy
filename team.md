@@ -42,6 +42,7 @@ layout: default
       </div>
       <div class="7u 12u$(medium)">
 	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" />
+      </div>
     </div>
   </div>
 </div>
@@ -55,7 +56,6 @@ layout: default
       </div>
       <div class="6u 12u$(medium)">
 	<ul style="list-style-type:none">
-
 	  <li>
 	    Stevan Coroller (occuria) - Président<br />
 	    <!--
