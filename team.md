@@ -42,7 +42,9 @@ layout: default
       </div>
       <div class="7u 12u$(medium)">
 	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" />
-
+    </div>
+  </div>
+</div>
 <!-- 2017 2018 -->
 <span class="image fit main"><img src="" alt="" /></span>
 <div class="content">
