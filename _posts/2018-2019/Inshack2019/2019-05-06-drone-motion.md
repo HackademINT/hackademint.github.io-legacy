@@ -1,6 +1,6 @@
 ---
 title: "drone-motion"
-subtitle: "Challenge issu de l'InsHack2019"
+subtitle: "Challenge issu de l'Inshack2019"
 author: "patate"
 ctf: "InsHack"
 annee: "2019"
@@ -9,7 +9,7 @@ team: "HackademINT"
 
 # > Enoncé
 
-We intercepted a drone flying above a restricted area and retrieved a [log](/writeup-scripts/2018-2019/InsHack2019/drone-motion/5e97cfb3f4c64201c201a1703440c397f91be74b.tar.gz) from its memory card.
+We intercepted a drone flying above a restricted area and retrieved a [log](/writeup-scripts/2018-2019/Inshack2019/drone-motion/5e97cfb3f4c64201c201a1703440c397f91be74b.tar.gz) from its memory card.
 
 Help us find out what this drone was doing above our heads!
 
@@ -20,7 +20,7 @@ Flag must match the regex: `INSA\{[a-z0-9]+\}`
 
 ## Fichiers fournis
 
-On nous fournit une [archive](/writeup-scripts/2018-2019/InsHack2019/drone-motion/drone-motion.zip) dont nous pouvons extraire un [fichier](/writeup-scripts/2018-2019/InsHack2019/drone-motion/sensors.log) contenant les logs de mouvement d'un drone.
+On nous fournit une [archive](/writeup-scripts/2018-2019/Inshack2019/drone-motion/drone-motion.zip) dont nous pouvons extraire un [fichier](/writeup-scripts/2018-2019/Inshack2019/drone-motion/sensors.log) contenant les logs de mouvement d'un drone.
 
 
 
@@ -93,12 +93,12 @@ plt.show()
 
 On obtient l'affichage suivant:
 
-![graphe](/writeup-scripts/2018-2019/InsHack2019/drone-motion/graphe.png)
+![graphe](/writeup-scripts/2018-2019/Inshack2019/drone-motion/graphe.png)
 
 
 N'ayant pas trouvé le moyen de zoomer correctement avec matplotlib, j'ai sélectionné dans mon script petit à petit les portions du graphe, ce qui m'a permis de déchiffrer le flag dont voici le premier morceau:
 
-![zoom](/writeup-scripts/2018-2019/InsHack2019/drone-motion/zoom.png)
+![zoom](/writeup-scripts/2018-2019/Inshack2019/drone-motion/zoom.png)
 
 
 
@@ -121,4 +121,4 @@ print('\n'.join([ 'INSA{'+flag.format(*permutation)+'}' for permutation in list(
 
 ## Flag
 
-En essayant tous les flags possibles sur la plateforme, on finissait par trouver le bon flag parmi cette [liste](/writeup-scripts/2018-2019/InsHack2019/drone-motion/flags.txt).
+En essayant tous les flags possibles sur la plateforme, on finissait par trouver le bon flag parmi cette [liste](/writeup-scripts/2018-2019/Inshack2019/drone-motion/flags.txt).
