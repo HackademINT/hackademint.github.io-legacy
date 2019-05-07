@@ -15,7 +15,14 @@ layout: default
 	    Bruno Dennemont (Bdenneu) - Vice-Président<br />
 	    <a href="https://github.com/Bdenneu/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/Bdenneu" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	  
 	  </li>
+	  <li>
+	    Xavier-Henri Monier (Archonte) - Vice-Président en charge des Relations Extérieures <br />
+	    <a href="https://github.com/Arch0nte/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://fr.linkedin.com/in/xavier-henri-monier-407b15182" target="\_blank"><img width="50" height="50" src="/assets/images/team/linkedin_circle_black_512.png" alt="LinkedIn Logo" /></a>
+	    
+	 </li>
 	</ul>
       </div>
     </div>
