@@ -6,7 +6,7 @@ published: true
 author: "Bdenneu"
 ---
 # Description
-Nous avons accés à un [fichier](/_posts/2018-2019/BreizhCTF2019/source/chall.asm) asm avec un programme.
+Nous avons accés à un [fichier](/writeup-scripts/2018-2019/BreizhCTF2019/chall.asm) asm avec un programme.
 
 
 # Solution
