@@ -6,7 +6,7 @@ published: true
 author: "Bdenneu"
 ---
 # Description
-On a accès à ![Hello_world.cpp](/writeup-scripts/2018-2019/TamuCTF2019/source/hello_world.cpp)
+On a accès à ![Hello_world.cpp](/writeup-scripts/2018-2019/TamuCTF2019/hello_world.cpp)
 
 # Solution
 Lorsque l'on ouvre le fichier, on remarque en début du fichier une alternance d'espace et de retour à la ligne.

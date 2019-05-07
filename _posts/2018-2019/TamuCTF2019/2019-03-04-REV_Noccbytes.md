@@ -9,7 +9,7 @@ author: "Bdenneu"
 Nous avons accés à un binaire.
 Lorsque l'on exécute celui ci, on nous demande une clé produit. Le but est de la trouver. Pour obtenir le flag, il faut envoyer le bon mot de passe sur rev.tamuctf.com sur le port 8188.
 
-Accés au binaire: [binaire](/writeup-scripts/2018-2019/TamuCTF2019/source/noccbytes)
+Accès au binaire: [binaire](/writeup-scripts/2018-2019/TamuCTF2019/noccbytes)
 
 # Solution
 

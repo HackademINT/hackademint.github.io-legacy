@@ -11,7 +11,7 @@ Lorsque l'on exécute celui ci, on obtient le texte suivant:
 
 ![Cheesy1](/assets/images/TamuCTF2019/tamuctf2019_cheesy1.png)
 
-Accés au binaire: [binaire](/writeup-scripts/2018-2019/TamuCTF2019/source/cheesy)
+Accès au binaire: [binaire](/writeup-scripts/2018-2019/TamuCTF2019/cheesy)
 
 Il s'agit de phrases en base64, dont une qui nous indique que nous avons raté le flag.
 
