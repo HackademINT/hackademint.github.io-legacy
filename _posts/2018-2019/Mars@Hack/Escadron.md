@@ -35,16 +35,27 @@ On note bien ces coordonnées et on reprend le même manège : exif puis exiftoo
 Voici les coordonnées obtenues :
 
 01vion.jpeg	48 deg 51' 39.80" N	2 deg 8' 52.30" E
-02vion.jpeg	48 deg 48' 48.70" N	2 deg 11' 13.70" E
+
+02vion.jpeg	48 deg 48' 48.70" N	2 deg 11' 13.70" E 
+
 03vion.jpeg	48 deg 41' 58.00" N	2 deg 18' 1.10" E
+
 04vion.jpeg	46 deg 9' 39.00" N	2 deg 7' 29.40" E
+
 05vion.jpeg	48 deg 41' 6.90" N	2 deg 11' 37.70" E
+
 06vion.jpeg	43 deg 7' 28.40" N	12 deg 53' 17.00" E
+
 07vion.jpeg	48 deg 49' 54.80" N	2 deg 21' 45.00" E
+
 08vion.jpeg	45 deg 46' 17.40" N	4 deg 52' 31.70" E
+
 09vion.jpeg	48 deg 55' 28.00" N	2 deg 21' 36.60" E
+
 10vion.jpeg	41 deg 22' 38.20" N	2 deg 6' 48.10" E
+
 11vion.jpeg	40 deg 26' 44.90" N	3 deg 41' 19.90" W
+
 12vion.jpeg	49 deg 1' 14.40" N	2 deg 30' 49.80" E
 
 Maintenant, ouvrez votre logiciel de cartes en ligne préféré ! Google earth Pro est gratuit et fait très bien l'affaire mais même la version mobile de Maps fonctionnerait. Il va falloir reconnaître aux coordonnées fournies des lettres formées par des bâtiments, peintes au sol ou formées par la végétation !
