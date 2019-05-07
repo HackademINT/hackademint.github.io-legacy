@@ -1,6 +1,6 @@
 ---
 title: "STEGANO.Escadron"
-ctf: "Mars@Hack"
+ctf: "MarsHack"
 annee: "2019"
 published : true
 author: "Archonte"
@@ -35,6 +35,7 @@ On note bien ces coordonnées et on reprend le même manège : exif puis exiftoo
 Voici les coordonnées obtenues :
 
 01vion.jpeg	48 deg 51' 39.80" N	2 deg 8' 52.30" E
+
 02vion.jpeg	48 deg 48' 48.70" N	2 deg 11' 13.70" E 
 
 03vion.jpeg	48 deg 41' 58.00" N	2 deg 18' 1.10" E
