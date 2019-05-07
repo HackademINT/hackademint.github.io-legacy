@@ -6,7 +6,7 @@ published : true
 author: "Archonte"
 ---
 
-On est ici face à une épreuve unique de stéganographie, assez simple techniquement mais poussant u npeu la réflexion.
+On est ici face à une épreuve unique de stéganographie, assez simple techniquement mais poussant un peu à la réflexion.
 
 ![L'image fournie.](/assets/images/Mars@Hack/map.jpeg)
 
