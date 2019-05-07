@@ -12,6 +12,13 @@ layout: default
       <div class="6u 12u$(medium)">
 	<ul style="list-style-type:none">
 	  <li>
+	    Thomas Doudat (Headorteil) - Président<br />
+	    <a href="https://github.com/Headorteil" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://www.root-me.org/Headorteil" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.linkedin.com/in/thomas-doudat-290840175/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+	  
+	  </li>
+	  <li>
 	    Bruno Dennemont (Bdenneu) - Vice-Président<br />
 	    <a href="https://github.com/Bdenneu/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/Bdenneu" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
