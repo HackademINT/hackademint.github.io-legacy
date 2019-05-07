@@ -8,7 +8,7 @@ author: "Archonte"
 
 On est ici face à une épreuve unique de stéganographie, assez simple techniquement mais poussant un peu à la réflexion.
 
-![L'image fournie.](/assets/images/Mars@Hack/map.jpeg)
+![L'image fournie.](/assets/images/Marshack/map.jpeg)
 
 En se servant d'exiftool on se rend compte qu'il y a quelque chose de caché.
 
@@ -23,7 +23,7 @@ mv map.jpeg 1vion.jpeg
 exiftool Avion.jpeg
 ```
 
-![L'image récupérée ainsi, un petit avion.](/assets/images/Mars@Hack/1vion.jpeg)
+![L'image récupérée ainsi, un petit avion.](/assets/images/Marshack/1vion.jpeg)
 
 On a alors deux informations capitales :
 
@@ -60,7 +60,7 @@ Voici les coordonnées obtenues :
 
 Maintenant, ouvrez votre logiciel de cartes en ligne préféré ! Google earth Pro est gratuit et fait très bien l'affaire mais même la version mobile de Maps fonctionnerait. Il va falloir reconnaître aux coordonnées fournies des lettres formées par des bâtiments, peintes au sol ou formées par la végétation !
 
-![Voici ce que l'on voit aux coordonnées fournies par 1vion.jpeg. On y reconnaît un "S".](/assets/images/Mars@Hack/1lettre.jpeg)
+![Voici ce que l'on voit aux coordonnées fournies par 1vion.jpeg. On y reconnaît un "S".](/assets/images/Marshack/1lettre.jpeg)
 
 En agissant ainsi pour les 12 images on obtinet le code suivant : "STEGANOPOWER"
 
