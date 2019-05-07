@@ -93,12 +93,11 @@ plt.show()
 
 On obtient l'affichage suivant:
 
-![graphe](/writeup-scripts/2018-2019/Inshack2019/drone-motion/graphe.png)
-
+![graphe](/assets/images/Inshack2019-drone-motion-graphe.png)
 
 N'ayant pas trouvé le moyen de zoomer correctement avec matplotlib, j'ai sélectionné dans mon script petit à petit les portions du graphe, ce qui m'a permis de déchiffrer le flag dont voici le premier morceau:
 
-![zoom](/writeup-scripts/2018-2019/Inshack2019/drone-motion/zoom.png)
+![zoom](/assets/images/Inshack2019-drone-motion-zoom.png)
 
 
 
