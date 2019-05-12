@@ -1,6 +1,6 @@
 ---
 title: "Now you dont"
-ctf "picoCTF"
+ctf: "picoCTF"
 annee: "2018"
 published : true
 author: "Archonte"
