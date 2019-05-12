@@ -28,8 +28,32 @@ layout: default
 	    Xavier-Henri Monier (Archonte) - Vice-Président en charge des Relations Extérieures <br />
 	    <a href="https://github.com/Arch0nte/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://fr.linkedin.com/in/xavier-henri-monier-407b15182" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
-	    
 	 </li>
+	 <li>
+	    Paul Foreveille (Cyxo) -  <br />
+	    <a href="https://github.com/Cyxo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://fr.linkedin.com/in/paul-forveille" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+	 </li>
+	 <li>
+	    Vincent Boisdon (Boisdal) -  <br />
+	    <a href="https://github.com/boisdal" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://fr.linkedin.com/in/vincent-boisdon-338123177" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+	 </li>
+	 <li>
+	    François Horta (Frazew) -  <br />
+	    <a href="https://github.com/Frazew" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	 </li>
+	 <li>
+	    Arthur Boyer (LemonIce) -  <br />
+	 </li>
+	 <li>
+	    Alexandre Da Costa (Daco) -  <br />
+	 </li>
+	 <li>
+	    Alice Zhen (Patate) -  <br />
+	    <a href="https://github.com/lishizalice" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	 </li>
+	 
 	</ul>
       </div>
     </div>
