@@ -5,7 +5,6 @@ annee: "2018"
 published : true
 author: "Archonte"
 ---
-## Challenge : Wrong size
 
 On est ici face à une image qui doit cacher le flag dans un élément en rapport avec sa taille (comme le titre du challenge le sous-entend …).
 
