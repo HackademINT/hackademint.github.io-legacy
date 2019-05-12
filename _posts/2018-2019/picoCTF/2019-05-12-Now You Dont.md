@@ -14,6 +14,6 @@ On isole les bits de chaque poids et de chaque couleur et sur le bit 0 rouge ...
 
 ![Shazam !](/assets/images/now.png)
 
-On profite de ce challenge pour reommander 1) les films "Now you see me" 2) Le club de magie Spades :)
+On profite de ce challenge pour recommander 1) les films "Now you see me" 2) Le club de magie Spades :)
 
 Le flag est donc picoCTF{n0w_y0u_533_m3} !
