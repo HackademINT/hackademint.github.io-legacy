@@ -3,7 +3,7 @@ title: "Wrong Size"
 ctf: "StarHackademINT"
 annee: "2018"
 published : true
-author: "Archonte & Frazew"
+author: "Archonte"
 ---
 ## Challenge : Wrong size
 
@@ -31,7 +31,6 @@ Pour ce faire,on utilise pngcsum afin de recalculer cette somme.
 `pngcsum message_modife.png message_recode.png`
 
 ![On obtient ainsi une image avec un flag ! Youpi !](/assets/images/message_out.png)
-
 ![Ou pas … En même temps on aurait pu s’en douter](/assets/images/fail.png)
 
 ## Partie 2 : Chasse au drapeau
