@@ -1,6 +1,6 @@
 ---
 title: "Wrong Size"
-ctf: "StarHackademINT 2018"
+ctf: "StarHackademINT"
 annee: "2018"
 published : true
 author: "Archonte & Frazew"
