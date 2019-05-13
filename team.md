@@ -30,9 +30,13 @@ layout: default
 	    <a href="https://fr.linkedin.com/in/xavier-henri-monier-407b15182" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
-	    Paul Foreveille (Cyxo) -  <br />
+	    Paul Forveille (Cyxo) -  <br />
 	    <a href="https://github.com/Cyxo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://fr.linkedin.com/in/paul-forveille" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+	 </li>
+	 <li>
+	    Constance Chou (Rico) -  <br />
+	    <a href="https://github.com/Constance753" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
 	 <li>
 	    Vincent Boisdon (Boisdal) -  <br />
@@ -53,7 +57,15 @@ layout: default
 	    Alice Zhen (Patate) -  <br />
 	    <a href="https://github.com/lishizalice" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
-	 
+	 <li>
+	    Bastien Sun (sunB) -  <br />
+	    <a href="https://fr.linkedin.com/in/bastien-sun" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+	 </li>
+	 <li>
+	    Paul Mabilau (PaulDance) -  <br />
+	    <a href="https://github.com/PositivePaulo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	 </li>
+
 	</ul>
       </div>
     </div>
