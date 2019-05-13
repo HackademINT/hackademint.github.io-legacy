@@ -74,6 +74,7 @@ layout: default
 	    <a href="https://www.root-me.org/zTeeed-115405" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
 	    <a href="https://duboc.xyz" target="\_blank"><img width="50" height="50" src="http://www.logospng.com/images/156/first-global-156893.png" alt="Website Logo" /></a>
 	    <a href="https://twitter.com/zTeeed_"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
+	    <a href="https://www.linkedin.com/in/aurelien-duboc/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	  </li>
 	  <li>
 	    Pierrick Gorisse (teagrain) - Vice-Président<br />
