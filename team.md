@@ -62,6 +62,7 @@ layout: default
 	 </li>
 	<li>
 	    Arthur Boyer (LemonIce) -  <br />
+	    <a href="https://github.com/LemonIceStuff" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
 	 <li>
 	    Alexandre Da Costa (Daco) -  <br />
