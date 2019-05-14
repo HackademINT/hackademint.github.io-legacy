@@ -10,13 +10,16 @@ On a ici une jolie image de Husky vraiment trop mignon.
 
 ![Il est vraiment trop mignon !](/assets/images/husky.png)
 
-En effectuant une analyse bit à bit, on se rend comte que les bits de poids 0 de chaque couleur sont anormalement vides ...
+En effectuant une analyse bit à bit grâce à stegsolve, on se rend comte que les bits de poids 0 de chaque couleur sont anormalement vides ...
 Sauf tout en haut à gauche !
+ci-dessous la différence entre les bits bleus 0 et 1:
 
+![Il est vraiment trop mignon !](/assets/images/bit0husky.png)
+![Il est vraiment trop mignon !](/assets/images/bit1husky.png)
 
 Comme on a déterminé qu'il y a quelquechose d'important sur ces bits, on les extrait pour regarder à quoi ça ressemble si on ne considère qu'eux.
 
-![Tadaaa !](/assets/images/reading.png)
+![Tadaaa !](/assets/images/extracthusky.png)
 
 Tadaaaaaaa !!
 
