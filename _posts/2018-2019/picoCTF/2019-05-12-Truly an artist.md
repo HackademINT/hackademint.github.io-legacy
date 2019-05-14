@@ -14,7 +14,7 @@ On commence par la découper comme des barbares pour regarder si des bits nous s
 L'image ne trahit rien ...
 Mais nous avons d'autres moyens de la faire parler !
 
-On lance une analyse du format du fichier "File Format Analysis" et dans le nom de l'auteur.
+On lance une analyse du format du fichier "File Format Analysis" via Stegsolve.
 
 ![Surprise ! Je ne connaissais pas cet artiste mais il a de l'avenir ...](/assets/images/truly.png)
 
