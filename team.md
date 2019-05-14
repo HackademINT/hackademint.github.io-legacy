@@ -47,12 +47,7 @@ layout: default
 	    François Horta (Frazew) -  <br />
 	    <a href="https://github.com/Frazew" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
-	 <li>
-	    Arthur Boyer (LemonIce) -  <br />
-	 </li>
-	 <li>
-	    Alexandre Da Costa (Daco) -  <br />
-	 </li>
+	 
 	 <li>
 	    Alice Zhen (Patate) -  <br />
 	    <a href="https://github.com/lishizalice" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
@@ -65,7 +60,12 @@ layout: default
 	    Paul Mabilau (PaulDance) -  <br />
 	    <a href="https://github.com/PositivePaulo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
-
+	<li>
+	    Arthur Boyer (LemonIce) -  <br />
+	 </li>
+	 <li>
+	    Alexandre Da Costa (Daco) -  <br />
+	 </li>
 	</ul>
       </div>
     </div>
