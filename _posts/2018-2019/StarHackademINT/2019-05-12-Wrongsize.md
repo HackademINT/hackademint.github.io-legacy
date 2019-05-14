@@ -1,5 +1,5 @@
 ---
-title: "Wrong Size"
+title: "STEGANO.Wrong Size"
 ctf: "StarHackademINT"
 annee: "2018"
 published : true
