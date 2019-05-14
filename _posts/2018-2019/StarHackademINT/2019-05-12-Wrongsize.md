@@ -37,7 +37,7 @@ Pour ce faire,on utilise pngcsum afin de recalculer cette somme.
 Comme on est dans les challenges de « Stéganographie » on va faire de la ... 
 Stéganographie, bravo à ceux qui ont trouvé, pour les autres, il y aura un CF2.
 
-Soit vous aimez la programmation et vous allez chasser tranche de pixel par tranche de pixel avec des programmes Python par exemple, soit vous avez autre chose à faire de votre nuit et on remercie Steven von Acker (haha) pour son outil Java [Stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install).
+Soit vous aimez la programmation et vous allez chasser tranche de pixel par tranche de pixel avec des programmes Python par exemple, soit vous avez autre chose à faire de votre nuit et on remercie Steven von Acker (haha) pour son outil Java ["Stegsolve"](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install).
 
 En utilisant ce superbe outil,on peut récupérer les pixels de chaque couleur et de chaque poids, regarder l’alpha ou même lancer des random color maps. Grâce à celles-ci (ou à une récupération des pixels de poids 0 ou 1), on obtient une version de l’image suivante:
 
