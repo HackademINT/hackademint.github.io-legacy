@@ -1,5 +1,5 @@
 ---
-title: "Truly an artist"
+title: "STEGANO.Truly an artist"
 ctf: "picoCTF"
 annee: "2018"
 published : true
