@@ -35,7 +35,7 @@ layout: default
 	    <a href="https://fr.linkedin.com/in/paul-forveille" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
-	    Constance Chou (Rico) -  <br />
+	    Constance Chou (rico) -  <br />
 	    <a href="https://github.com/Constance753" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
 	 <li>
@@ -49,11 +49,11 @@ layout: default
 	 </li>
 	 
 	 <li>
-	    Alice Zhen (Patate) -  <br />
+	    Alice Zhen (patate) -  <br />
 	    <a href="https://github.com/lishizalice" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
 	 <li>
-	    Bastien Sun (sunB) -  <br />
+	    Bastien Sun (SunB) -  <br />
 	    <a href="https://fr.linkedin.com/in/bastien-sun" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
