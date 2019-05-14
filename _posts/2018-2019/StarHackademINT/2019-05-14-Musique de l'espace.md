@@ -15,7 +15,7 @@ On obtient ainsi l'image suivante:
 
 ![Le flaaaaag](/assets/images/spacespectre.png)
 
-2) On travaille avec Audacity, qui permet aussi de gérer d'autres challenges audio de stéganographie. 
+2) On travaille avec [Audacity](https://audacity.fr/), un logiciel gratuit, qui permet aussi de gérer d'autres challenges audio de stéganographie. 
 
 ![Le signal de base](/assets/images/spaceauda1.png)
 
