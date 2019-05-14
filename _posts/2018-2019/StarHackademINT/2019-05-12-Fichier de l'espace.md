@@ -13,12 +13,12 @@ Cette indication est "Un fichier peut en cacher un autre".
 
 ![Une indication ...](/assets/images/SpaceFile1.png)
 
-La première chose qui doit vous mettre la puce à l'oreille est le mot "fichier" et non "image" ...
+La première chose qui doit vous mettre la puce à l'oreille est le mot "fichier" et non "image"...
 La stéganographie se concentrant souvent sur le fait de cacher une image dans une autre image, le mot "fichier" semble inapproprié. Sauf, bien sûr, dans un cas, celui des archives où un "fichier", l'archive, en "cache" d'autres qu'il contient.
 
-'''Bash
+```Bash
 unzip alien.jpeg
-'''
+```
 
 Cette commande nous donne entre autres un dossier Thumbnail qui contient une image.
 
