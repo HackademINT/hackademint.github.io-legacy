@@ -106,7 +106,7 @@ layout: default
 	  </li>
 	  <li>
 	    Ghita Filali (curlyhairedgirl) - Trésorière<br />
-	    <a href="https://gitlab.com/ghitafilali/" target="\_blank"><img width="50" height="50" src="/assets/images/team/gitlab.png" alt="Gitlab Logo" /></a>
+	    <a href="https://gitlab.com/ghitafilali/" target="\_blank"><img width="50" height="50" src="/assets/images/team/gitlab-filled.png" alt="Gitlab Logo" /></a>
 	  </li>
 	</ul>
       </div>
