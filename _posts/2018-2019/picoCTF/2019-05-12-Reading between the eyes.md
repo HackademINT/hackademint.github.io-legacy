@@ -6,7 +6,7 @@ published : true
 author: "Archonte"
 ---
 
-On a ici une jolie image de Husky vraiment trop mignon.
+On a ici une jolie image de Husky vraiment trop mignon (mais lourde donc elle peut mettre du temps à charger ^^).
 
 ![Il est vraiment trop mignon !](/assets/images/husky.png)
 
