@@ -8,9 +8,9 @@ author: "Archonte"
 
 Le but est de trouver le point commun de ces trois pictures :
 
-![Première](/asssets/images/black.jpg)
-![Deuxième](/asssets/images/brown.jpg)
-![Troisième](/asssets/images/white.jpg)
+![Première](/assets/images/black.jpg)
+![Deuxième](/assets/images/brown.jpg)
+![Troisième](/assets/images/white.jpg)
 
 Ce challenge peut être résolu en quelques secondes en se servant du plus puissant [outil](https://www.google.com/) à votre disposition.
 
