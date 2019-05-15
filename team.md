@@ -53,12 +53,14 @@ layout: default
 	    <a href="https://github.com/lishizalice" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
 	 <li>
-	    Bastien Sun (SunB) -  <br />
-	    <a href="https://fr.linkedin.com/in/bastien-sun" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+	    Paul Mabileau (PaulDance) -  <br />
+	    <a href="https://github.com/PositivePaulo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://www.root-me.org/PaulDance" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.linkedin.com/in/paul-mabileau-b70ab3178/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
-	    Paul Mabilau (PaulDance) -  <br />
-	    <a href="https://github.com/PositivePaulo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    Bastien Sun (SunB) -  <br />
+	    <a href="https://fr.linkedin.com/in/bastien-sun" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	<li>
 	    Arthur Boyer (LemonIce) -  <br />
