@@ -14,7 +14,7 @@ On a ici deux choix :
 1) On le passe donc dans un analyseur de spectre comme par exemple l'excellent [academo](https://academo.org/demos/spectrum-analyzer/)
 On obtient ainsi l'image suivante:
 
-![Le flaaaaag](/assets/images/spacespectre.png)
+![Le flaaaaag](/assets/images/spaceacademo.png)
 
 2) On travaille avec [Audacity](https://audacity.fr/), un logiciel gratuit, qui permet aussi de gérer d'autres challenges audio de stéganographie. 
 
