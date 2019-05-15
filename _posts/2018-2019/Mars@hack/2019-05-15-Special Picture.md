@@ -16,6 +16,6 @@ Ce challenge peut être résolu en quelques secondes en se servant du plus puiss
 
 En effet, en faisant une recherche d'image inversée, on trouve ce genre d'[article](https://natmchugh.blogspot.com/2014/11/three-way-md5-collision.html) sur l'obsolescence du md5.
 
-Pour les novices ou c'est qui auraient oublilé, un petit [rappel](https://fr.wikipedia.org/wiki/Fonction_de_hachage) sur ce qu'est un Hash.
+Pour les novices ou ceux qui auraient oublilé, un petit [rappel](https://fr.wikipedia.org/wiki/Fonction_de_hachage) sur ce qu'est un Hash.
 
 Les 3 images ont le même hash MD5, le flag est MARS{MD5}.
