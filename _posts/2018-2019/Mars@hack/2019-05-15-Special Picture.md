@@ -1,5 +1,5 @@
 ---
-title: "Special Picture"
+title: "STEGANO.Special Picture"
 ctf: "Mars@Hack"
 annee: "2019"
 published : true
