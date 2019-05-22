@@ -78,8 +78,9 @@ def check_flag(flag):
 	for x in s: res = 16*res+x
 	res = "{:016x}".format(res)
 	if res.decode("hex") == "ECSC2019":
-		print "Nice! You can enter this flag: ECSC{\%s}." % flag
-
+                {% raw %}
+		print "Nice! You can enter this flag: ECSC{%s}." % flag
+                {% endraw %}
 
 if __name__ == "__main__":
 	if len(sys.argv) != 2:
@@ -251,9 +252,13 @@ if __name__ == "__main__":
     #On commence par trouver le tableau entier de ECSC2019
     goal = [ int(i, 16) for i in binascii.hexlify("ECSC2019".encode()) ]
     solution = "".join([ hex(i)[2:] for i in solve(goal) ])
-    print("ECSC{\%s}" % solution)
-```
+    {% raw %}
+    print("ECSC{%s}" % solution)
+```    {% endraw %}
+
 
 ## Le flag
 
 En exécutant ce code on obtient l'output suivant : ECSC{976b459068a6ae6c}
+
+
