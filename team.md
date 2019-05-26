@@ -30,7 +30,7 @@ layout: default
 	    <a href="https://fr.linkedin.com/in/xavier-henri-monier-407b15182" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
-	    Paul Forveille (Cyxo) -  <br />
+	    Paul Forveille (Cyxo) - Vice-Président<br />
 	    <a href="https://github.com/Cyxo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://fr.linkedin.com/in/paul-forveille" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
