@@ -16,13 +16,13 @@ layout: default
 	    <a href="https://github.com/Headorteil" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/Headorteil" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
 	    <a href="https://www.linkedin.com/in/thomas-doudat-290840175/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
-	  
+
 	  </li>
 	  <li>
 	    Bruno Dennemont (Bdenneu) - Vice-Président<br />
 	    <a href="https://github.com/Bdenneu/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/Bdenneu" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
-	  
+
 	  </li>
 	  <li>
 	    Xavier-Henri Monier (Archonte) - Vice-Président en charge des Relations Extérieures <br />
@@ -47,7 +47,7 @@ layout: default
 	    François Horta (Frazew) -  <br />
 	    <a href="https://github.com/Frazew" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	 </li>
-	 
+
 	 <li>
 	    Alice Zhen (patate) -  <br />
 	    <a href="https://github.com/lishizalice" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
@@ -87,7 +87,7 @@ layout: default
 	    Aurélien Duboc (zTeeed) - Président<br />
 	    <a href="https://github.com/zteeed/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/zTeeed-115405" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
-	    <a href="https://duboc.xyz" target="\_blank"><img width="50" height="50" src="http://www.logospng.com/images/156/first-global-156893.png" alt="Website Logo" /></a>
+	    <a href="https://duboc.xyz" target="\_blank"><img width="50" height="50" src="https://www.logospng.com/images/156/first-global-156893.png" alt="Website Logo" /></a>
 	    <a href="https://twitter.com/zTeeed_"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
 	    <a href="https://www.linkedin.com/in/aurelien-duboc/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	  </li>
@@ -101,11 +101,12 @@ layout: default
 	    <a href="https://github.com/penciole" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	  </li>
 	  <li>Armelle Boussaïd (cilver / Lightning) - Relations Entreprises<br />
-	    <a href="https://github.com/Cilver-AB" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	  </li>
 	  <li>Etienne Wan (etiennewan) - Veille technique<br />
 	    <a href="https://github.com/etiennewan/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://twitter.com/EtienneWan"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
+	    <a href="https://twitter.com/etiennewan"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
+	    <a href="https://www.root-me.org/etiennewan" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://janitor.technology" target="\_blank"><img width="50" height="50" src="https://www.logospng.com/images/156/first-global-156893.png" alt="https://janitor.technology" /></a>
 	  </li>
 	  <li>
 	    Ghita Filali (curlyhairedgirl) - Trésorière<br />
