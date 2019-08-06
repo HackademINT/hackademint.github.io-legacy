@@ -142,7 +142,7 @@ layout: default
 	    -->
 	  </li>
 	  <li>
-	    Nicolas Bonnet (insolentbacon) - Trésorier<br />
+	    Nicolas Bonnet (touriste) - Trésorier<br />
 	    <a href="https://github.com/bonnetn/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/MtBtDjM-DH7A-Kv" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
 	  </li>
