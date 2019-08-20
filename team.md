@@ -101,7 +101,7 @@ layout: default
 	    Valentin Penciolelli (penpen) - Vice-Président<br />
 	    <a href="https://github.com/penciole" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	  </li>
-	  <li>Armelle Boussaïd (cilver / Lightning) - Relations Entreprises<br />
+	  <li>Armelle Boussaïd - Relations Entreprises<br />
 	  </li>
 	  <li>Etienne Wan (etiennewan) - Veille technique<br />
 	    <a href="https://github.com/etiennewan/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
