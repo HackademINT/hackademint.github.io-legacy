@@ -121,7 +121,7 @@ layout: default
       </div>
       <a href="/assets/images/team/pic05.jpg.bak">
       <div class="7u 12u$(medium)">
-	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" /></a>
+	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" /></span></div></a>
 
 <!-- 2017 2018 -->
 <span class="image fit main"><img src="" alt="" /></span>
