@@ -72,6 +72,10 @@ layout: default
 	 </li>
 	</ul>
       </div>
+      <div class="7u 12u$(medium)">
+      <a href="/assets/images/team/pic11.jpg">
+	<span class="image fit main"><img src="/assets/images/team/pic11.jpg" alt="" /></span></a>
+      </div>
     </div>
   </div>
 </div>
@@ -115,8 +119,9 @@ layout: default
 	  </li>
 	</ul>
       </div>
+      <a href="/assets/images/team/pic05.jpg.bak">
       <div class="7u 12u$(medium)">
-	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" />
+	<span class="image fit main"><img src="/assets/images/team/pic05.jpg.bak" alt="" /></a>
 
 <!-- 2017 2018 -->
 <span class="image fit main"><img src="" alt="" /></span>
