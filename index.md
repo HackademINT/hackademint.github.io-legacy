@@ -5,6 +5,7 @@ layout: default
 <h1 align="center"><b>Bienvenue sur le site du club<br/>HackademINT !</b></h1>
 ### Vous trouverez ci-dessous une liste des différents sites web que le club crée, maintient et met à jour pour ses activités :
 
+* [StarHackademINT 2019](https://star2019.hackademint.org/): le CTF de la rentrée 2019. Il est toujours pleinement actif et la participation est libre, n'hésitez pas !
 * [StarHackademINT 2018](https://star2018.hackademint.org/): un CTF de rentrée mis en place en 2018
 * [Web StarHackademINT 2018](https://webstar2018.hackademint.org/): le site qui regroupe les défis orientés web du CTF StarHackademINT 2018
 * [WindaubeCTF](https://windaube.hackademint.org/): deux défis comme introduction aux failles classiques sous Windows (nom de code Windaube)
