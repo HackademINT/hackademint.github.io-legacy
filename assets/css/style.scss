@@ -2,3 +2,68 @@
 ---
 
 @import "jekyll-theme-midnight";
+
+
+body {								// Overrides Jekyll's style in _sass/jekyll[...].scss
+	font-size: 16px;				// Font sizes have been bumped up by 2px from
+}									// the original style.
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+a small {
+	font-size: 13px;
+}
+
+code {
+	font-size: 15px;
+}
+
+
+#header {
+	nav {
+		li {
+			font-size: 16px;
+
+			a {
+				font-size: 16px;
+			}
+
+			&.title {
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+section {
+	#title {
+		h1 {
+			font-size: 42px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		.credits {
+			font-size: 13px;
+		}
+	}
+}
+
+
+nav {								// Overrides Bootstrap's style in bootstrap.in.css
+	.navbar-brand {					// For the top left "HackademINT" title,
+		font-size: 24px;			// the font-size has been augmented by 6px.
+	}
+}
