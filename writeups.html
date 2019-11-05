@@ -18,4 +18,58 @@ layout: default
 }
 </style>
 
-<h1 align="center"><b>FERME POUR CAUSE DE CTF</b></h1>
+{% assign annees = '' | split: '' %}
+{% assign ctfs = '' | split: '' %}
+{% assign anneed = '' | split: '' %}
+{% assign ctfd = '' | split: '' %}
+{% assign delim = ',' | split: '' %}
+
+{% for post in site.posts %}
+
+    {% unless anneed contains post.annee %}
+        {% assign annee = post.annee | split: '' %}
+        {% assign annees = annees | concat: annee | concat: delim | join: '' %}
+    {% endunless %}
+        {% assign anneed = annees | split: ',' %}
+
+    {% unless ctfd contains post.ctf %}
+        {% assign ctf = post.ctf | split: '' %}
+        {% assign ctfs = ctfs | concat: ctf | concat: delim | join: ''%}
+    {% endunless %}
+        {% assign ctfd = ctfs | split: ',' %}
+
+{% endfor %}
+
+{% assign annees = annees | split: ',' | sort | reverse %}
+{% assign ctfs = ctfs | split: ',' %}
+{% assign test = false %}
+
+<h1 align="center"><b>Writeups</b></h1>
+
+
+{% for annee in annees %}
+  <h1>{{ annee }}: </h1>
+  {% for ctf in ctfs %}
+    {% for post in site.posts %}
+      {% if post.annee == annee and post.ctf == ctf %}
+        {% assign test = true %}
+      {% endif %}
+    {% endfor %}
+    {% if test == true %}
+    <h2 class="cliquable">_{{ ctf }}</h2>
+      <ul class="retractable">
+      {% for post in site.posts %}
+        {% if post.annee == annee and post.ctf == ctf %}
+      <li>
+	  <h3>
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+	  </h3>
+      </li>
+
+	{% endif %}
+      {% endfor %}
+      </ul>
+    {% endif %}
+    {% assign test = false %}
+  {% endfor %}
+{% endfor %}
