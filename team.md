@@ -38,6 +38,7 @@ layout: default
 	 <li>
 	    Constance Chou (rico) -  <br />
 	    <a href="https://github.com/Constance753" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://www.root-me.org/rico-236021" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
 	 </li>
 	 <li>
 	    Vincent Boisdon (Boisdal) -  <br />
