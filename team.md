@@ -14,20 +14,20 @@ layout: default
 	  <li>
 	    Thomas Doudat (Headorteil) - Président<br />
 	    <a href="https://github.com/Headorteil" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/Headorteil" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/Headorteil" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    <a href="https://www.linkedin.com/in/thomas-doudat-290840175/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 
 	  </li>
 	  <li>
 	    Bruno Dennemont (Bdenneu) - Vice-Président<br />
 	    <a href="https://github.com/Bdenneu/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/Bdenneu" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/Bdenneu" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 
 	  </li>
 	  <li>
 	    Xavier-Henri Monier (Archonte) - Vice-Président en charge des Relations Extérieures <br />
 	    <a href="https://github.com/Arch0nte/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/Archonte-331257" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/Archonte-331257" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    <a href="https://fr.linkedin.com/in/xavier-henri-monier-407b15182" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
@@ -38,7 +38,7 @@ layout: default
 	 <li>
 	    Constance Chou (rico) -  <br />
 	    <a href="https://github.com/Constance753" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/rico-236021" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/rico-236021" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	 </li>
 	 <li>
 	    Vincent Boisdon (Boisdal) -  <br />
@@ -57,7 +57,7 @@ layout: default
 	 <li>
 	    Paul Mabileau (PaulDance) -  <br />
 	    <a href="https://github.com/PositivePaulo" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/PaulDance" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/PaulDance" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    <a href="https://www.linkedin.com/in/paul-mabileau-b70ab3178/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	 </li>
 	 <li>
@@ -92,7 +92,7 @@ layout: default
 	  <li>
 	    Aurélien Duboc (zTeeed) - Président<br />
 	    <a href="https://github.com/zteeed/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/zTeeed-115405" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/zTeeed-115405" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    <a href="https://duboc.xyz" target="\_blank"><img width="50" height="50" src="https://www.logospng.com/images/156/first-global-156893.png" alt="Website Logo" /></a>
 	    <a href="https://twitter.com/zTeeed_"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
 	    <a href="https://www.linkedin.com/in/aurelien-duboc/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
@@ -111,7 +111,7 @@ layout: default
 	  <li>Etienne Wan (etiennewan) - Veille technique<br />
 	    <a href="https://github.com/etiennewan/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://twitter.com/etiennewan"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
-	    <a href="https://www.root-me.org/etiennewan" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/etiennewan" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    <a href="https://janitor.technology" target="\_blank"><img width="50" height="50" src="https://www.logospng.com/images/156/first-global-156893.png" alt="https://janitor.technology" /></a>
 	  </li>
 	  <li>
@@ -138,19 +138,19 @@ layout: default
 	  <li>
 	    Stevan Coroller (occuria) - Président<br />
 	    <!--
-       <a href="https://www.root-me.org/occuria" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+       <a href="https://www.root-me.org/occuria" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    -->
 	  </li>
 	  <li>
 	    Romain Cherré (varens) - Vice-Président<br />
 	    <!--
-       <a href="https://www.root-me.org/varens" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+       <a href="https://www.root-me.org/varens" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	    -->
 	  </li>
 	  <li>
 	    Nicolas Bonnet (touriste) - Trésorier<br />
 	    <a href="https://github.com/bonnetn/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
-	    <a href="https://www.root-me.org/MtBtDjM-DH7A-Kv" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+	    <a href="https://www.root-me.org/MtBtDjM-DH7A-Kv" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	  </li>
 
 	</ul>
