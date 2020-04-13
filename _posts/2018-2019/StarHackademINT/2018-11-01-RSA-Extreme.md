@@ -11,7 +11,7 @@ On nous donne une commande : `ssh -i rsa_priv_key rsaextreme@157.159.40.163`, un
 
 # Analyse du problème
 On voit donc qu’on doit générer une clé privé à l’aide d’une clé publique. On a donc un N et un e et on cherche a obtenir un d.
-En effet, les RSA fonctionnent de la manière suivante : on génère deux nombres premiers p et q et on note leur produit N. On génère ensuite e et d tels que $$ed \equiv 1 [φ(N)]$$ avec $$φ(N) = (p-1)(q-1)$$
+En effet, le RSA fonctionne de la manière suivante : on génère deux nombres premiers p et q et on note leur produit N. On génère ensuite e et d tels que $$ed \equiv 1 [φ(N)]$$ avec $$φ(N) = (p-1)(q-1)$$
 . La clef publique est alors le couple (N,e) et la clef privée (N,d).
 
 # C'est parti
