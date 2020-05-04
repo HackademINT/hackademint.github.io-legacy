@@ -48,7 +48,7 @@ Now enter your solution. First line must be the number of XORs reached.
 (Do not forget the 'XNP SOLUTION' delimiters.)
 ```
 
-A partir de la récupère m et n (6 et 4) et on va construire nos matrices A et B en mettant les valeurs des inputs en binaire.
+A partir de la, on récupère m et n (6 et 4) et on va construire nos matrices A et B en mettant les valeurs des inputs en binaire.
 
 A sera l'état initial et B l'état à atteindre, ici :
 $$
