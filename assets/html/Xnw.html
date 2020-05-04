@@ -1,0 +1,99 @@
+<h1>Xoring Networks</h1><p>In this challenge, we propose to adopt the representation used in <a href="https://en.wikipedia.org/wiki/Sorting_network">Sorting Networks</a> to introduce <strong>Xoring Networks</strong>.</p>
+<p>A <em>Xoring Network</em> of dimension <code>n</code> is a composed of</p>
+<ul>
+<li><code>n</code> wires, each holding one bit (<code>0</code> or <code>1</code>),</li>
+<li><code>m</code> XOR gates within the <code>n</code> wires,</li>
+<li>a final permutation <code>P</code> of the <code>n</code> wires.</li>
+</ul>
+<p><strong>Goal.</strong>
+The goal of the Xoring Network of dimension <code>n</code> denoted <code>XN[n, A, B]</code> is to transform the sequence <code>A</code> of <code>n</code>-bit input values <code>a_i</code> into the sequence <code>B</code> of <code>n</code>-bit output values <code>b_i</code>. 
+That is, for all <code>i</code>, <code>XN[n, A, B](a_i) = b_i</code>.</p>
+<p><strong>Problem.</strong> 
+On inputs <code>A</code> and <code>B</code>, the <strong>Xoring Network Problem</strong> (XNP) asks to find a Xoring Network that transforms sequence <code>A = (a_i)</code> into sequence <code>B = (b_i)</code> using <strong>at most</strong> <code>M</code> XOR gates. The associated decision problem <strong>DXNP</strong> asks whether a solution exists.</p>
+<p><strong>Note.</strong> Some XNP instances do not admit any solution, but some may have more than one.</p>
+<p><strong>Challenge.</strong>
+In this challenge, you will be asked to find solution for several XNP instances of increasing dimensions.</p>
+<h2>Format on an example</h2>
+<p>We now give the textual description for an XNP instance and the expected format for a corresponding solution.</p>
+<p>Consider the XNP instance given by</p>
+<pre><code>--------- BEGIN XNP ---------
+4
+6
+0xc 0xc
+0x4 0xb
+0xa 0xa
+0x7 0x8
+---------- END XNP ----------
+</code></pre>
+<p>where :</p>
+<ul>
+<li>the first line contains <code>n</code> (here, <code>n = 4</code>),</li>
+<li>the second line contains <code>M</code> (here, <code>M = 6</code>),</li>
+<li>the remaining <code>n</code> lines contain each pair <code>(a_i, b_i)</code> of the sequences <code>A</code> and <code>B</code>. Here, <code>(a_0, b_0) = (0xc, 0xc)</code>, <code>(a_1, b_1) = (0x4, 0xb)</code>, etc.</li>
+</ul>
+<p>This XNP instance example can be represented by this figure:</p>
+<p><img src="/assets/images/xnw-instance.png" height="400px"></p>
+<p>A <strong>solution</strong> of this XNP instance is represented in this figure:</p>
+<p><img src="/assets/images/xnw-instance-solution.png" height="400px"></p>
+<p>This solution is described in textual form as:</p>
+<pre><code>----- BEGIN XNP SOLUTION -----
+6
+0 1
+1 2
+1 3
+3 0
+2 0
+0 1
+2
+3
+0
+1
+------ END XNP SOLUTION ------
+</code></pre>
+<p>where :</p>
+<ul>
+<li>the first line contains the number of XORs <code>m</code>, which must be at most <code>M</code>. Here, <code>m = 6</code>.</li>
+<li>the next <code>m</code> lines represent the sequence of XOR gates. Here, XOR Row 1 into Row 0, then XOR Row 2 into Row 1, etc.</li>
+<li>The remaining <code>n</code> lines describe the final permutation on the <code>n</code> wires. Here, <code>(3, 2, 1, 0)</code> is permuted to <code>(2, 3, 0, 1)</code>.</li>
+</ul>
+<h2>Challenge</h2>
+<p>Upon connection on the remote service for this challenge, you will receive several problems in the textual form described above, for instance,</p>
+<pre><code>--------- BEGIN XNP ---------
+4
+6
+0x7 0x8
+0x4 0xe
+0x1 0x9
+0xb 0x3
+---------- END XNP ----------
+</code></pre>
+<p>and you will need to send back one solution for each problem in the same format as above to the server, for instance :</p>
+<pre><code>----- BEGIN XNP SOLUTION -----
+6
+0 2
+2 1
+3 0
+1 0
+0 3
+0 2
+3
+2
+1
+0
+------ END XNP SOLUTION ------
+</code></pre>
+<p>or</p>
+<pre><code>----- BEGIN XNP SOLUTION -----
+5
+1 2
+2 0
+2 3
+3 1
+0 1
+0
+3
+2
+1
+------ END XNP SOLUTION ------
+</code></pre>
+<p>Good luck and have fun!</p>
