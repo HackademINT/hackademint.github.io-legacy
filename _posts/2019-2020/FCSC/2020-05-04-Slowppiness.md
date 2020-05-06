@@ -27,7 +27,7 @@ Ce challenge est un problème d'optimisation de code. Voici le début de la fonc
 
 ![](/assets/images/FCSC2020/Slowppiness/1.png)
 
-Le programme va lancer la fonction 0x55d208afc400 sur les 4 fichiers donénes (16, 128, 256 puis 4096). Après chacun des 3 premiers, il va vérifier le hash que la fonction renvoit (les 16 premiers bytes).
+Le programme va lancer la fonction 0x55d208afc400 sur les 4 fichiers données (16, 128, 256 puis 4096). Après chacun des 3 premiers, il va vérifier le hash que la fonction renvoit (les 16 premiers bytes).
 
 Il utilisera le dernier hash (4096) en temps que flag:
 
@@ -78,14 +78,14 @@ Par exemple, pour [0, 7], il ferait:
 
 ![](/assets/images/FCSC2020/Slowppiness/8.png)
 
-Le deuxième bout de code répété lui aussi à quelques offsets près et celui la. Comme en haut, il calcule le terme suivant pour la suite le place dans z1, ajoute 1 à z2 et inverse les élements dans r15+rcx*4 et r15*rbx*4.Le code est répété jusqu'a ce que rsp+0x68 (fin de l'intervalle) pour ce bout de code soit égal à rsp+0x68 (début de l'intervalle) en diminuant à chaque itération rsp+0x68. Tant que les valeurs ne sont pas égales, il relance le bout de code d'en haut.
+Le deuxième bout de code répété lui aussi à quelques offsets près et celui la. Comme en haut, il calcule le terme suivant pour la suite le place dans z1, ajoute 1 à z2 et inverse les élements dans r15+rcx\*4 et r15\*rbx\*4.Le code est répété jusqu'a ce que rsp+0x68 (fin de l'intervalle) pour ce bout de code soit égal à rsp+0x68 (début de l'intervalle) en diminuant à chaque itération rsp+0x68. Tant que les valeurs ne sont pas égales, il relance le bout de code d'en haut.
 
 Si l'on y réflechi bien, il ne fait que relancer la fonction, mais sur entre le debut des intervalles, et la fin données au départ-1.
 
 Par exemple, pour [0, 7], il ferait:
-*[6, 6]  (7-1 = 6)
-*[4, 6]
-*[0, 6]
+* [6, 6]  (7-1 = 6)
+* [4, 6]
+* [0, 6]
 
 Au final, ce n'est un algorithme de tri avec une complexité dégueulasse, qui garde en mémoire le nombre de calcul qu'il a fait.
 
