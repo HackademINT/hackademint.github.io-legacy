@@ -43,11 +43,17 @@ Le memset(rbp-0x58, 0, 0x40) alloue une zone mémoire.
 ![](/assets/images/FCSC2020/SerialKeyler/6.png)
 
 On rentre ensuite dans une boucle. Le compteur est rbp-0x60. Sa valeur est comparée à rbp-0x58 (longueur de l'entrée utilisateur). Tant que sa valeur est inférieure (jb = jump below), on continue la boucle.
+
 Dans la première partie, on récupere le username rbp - 0x78 (mov rdx ...) , que l'on additionne au compteur rbp-0x60 (mov rax ..., add rax, rdx), et on en récupére le premier byte (movzx eax...). Cette valeur est mise dans rbp-0x61.
+
 On peut résumer l'opération par mov byte rbp-0x61, username[rbp-0x60].
+
 Dans la seconde partie, on récupère la longueur du username rbp-0x58 (mov rax ...), auquelle on soustrait le compteur rbp-0x60 et 1, et on le met dans rax.
+
 On peut résumer l'opération par mov rax, len(username)-compteur-1.
+
 On remet ensuite rbp-0x61 dans rdx, on le xor avec 0x1f, et on le place dans rbp+rax-0x50. On itére le compteur, et on continue.
+
 Au final, voila une traduction de la boucle en python:
 
 ```python

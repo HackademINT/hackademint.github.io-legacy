@@ -29,7 +29,7 @@ Le programme récupere l’entrée utilisateur (fgets), lance strlen dessus pour
 L’idée la plus simple que j’ai trouvé ici a été de modifier le call sym.imp.strlen pour le transformer en call sym.imp.system vu que le call est relatif à l’endroit où il est appelé.
 Dans la plt, system est juste après strlen (écart de 0x10) :
 
-![](/assets/images/FCSC2020/Pachinko/2.png)
+![](/assets/images/FCSC2020/Patchinko/2.png)
 
 Le call de sym.imp.strlen dans main est à l’offset 0x888.
 
