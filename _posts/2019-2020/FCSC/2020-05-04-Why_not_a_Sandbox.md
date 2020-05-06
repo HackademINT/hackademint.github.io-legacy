@@ -1,6 +1,6 @@
 ---
 title: "Why not a Sandbox"
-subtitle: "Challenge de Crypto du FCSC 2020"
+subtitle: "Challenge de Pwn du FCSC 2020"
 published: true
 author: "Bdenneu"
 ctf: "FCSC"
