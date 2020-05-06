@@ -248,4 +248,7 @@ if __name__ == "__main__":
 # Flag
 
 Et hop en quelques secondes on obtient le flag :
-`Congratulations! Here is your flag: FCSC{a630a31265cdc8516f5926d636f62d4c38ed4bf743bc84db095f1cc78cd3fb7f}`
+```
+Congratulations! Here is your flag: FCSC{a630a31265cdc8516f5926d636f62d4c38ed4bf743bc84db095f1cc78cd3fb7f}
+```
+

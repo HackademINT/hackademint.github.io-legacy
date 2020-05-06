@@ -580,6 +580,9 @@ Voila voila.
 
 # Le flag
 
-Ici on est sur la version Baby alors les dimensions s'arrêtent à 5, on trouve donc assez rapidement le résultat : FCSC{75b6b3c00ff050847712a584f8abbc6c7fc693f6d968025ce19a904c187eef0b}.
+Ici on est sur la version Baby alors les dimensions s'arrêtent à 5, on trouve donc assez rapidement le résultat : 
+```
+FCSC{75b6b3c00ff050847712a584f8abbc6c7fc693f6d968025ce19a904c187eef0b}
+```
 
 Malheureusement ça n'est pas assez performant dès qu'on monte un peu en dimensions, je n'ai donc pas réussi à flag la version "originale" du challenge qui monte jusqu'en dimension 16.
