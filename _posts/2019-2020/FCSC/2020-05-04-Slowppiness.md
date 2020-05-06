@@ -45,11 +45,11 @@ La taille mise alors en argument est stockée dans r8, puis on rentre dans une b
 
 On initialise deux zones mémoires: une à 0x12345678 (z1) et l'autre à 0 (z2)
 Tant que r8 n'est pas égal à 0:
-*on lance 0x55d208afbc80(contenu_du_fichier, 0,r8>>1)
-*on lance 0x55d208afbc80(contenu_du_fichier, r8>>1+1, r9)
-*on stocke dans z1 la valeur (z1*0x19660d+0x3c6ef35f)&0xffffffff (ce qui fait penser à une suite)
-*on ajoute 1 à z2
-*on compare [rbx+r9*4] et [rbx+r8*4], et on les trie.
+* on lance 0x55d208afbc80(contenu_du_fichier, 0,r8>>1)
+* on lance 0x55d208afbc80(contenu_du_fichier, r8>>1+1, r9)
+* on stocke dans z1 la valeur (z1*0x19660d+0x3c6ef35f)&0xffffffff (ce qui fait penser à une suite)
+* on ajoute 1 à z2
+* on compare [rbx+r9*4] et [rbx+r8*4], et on les trie.
 
 ![](/assets/images/FCSC2020/Slowppiness/5.png)
 
@@ -72,9 +72,9 @@ Ce bout de code est répété plusieurs fois à quelques offsets près. Il va re
 Cette séparation se fait 7 fois au maximum.
 
 Par exemple, pour [0, 7], il ferait:
-*[0, 3] (0+7)//2 = 3
-*[4, 5]  (4+7)//2 = 5
-*[6, 6]  (6+7)//2 = 6
+* [0, 3] (0+7)//2 = 3
+* [4, 5]  (4+7)//2 = 5
+* [6, 6]  (6+7)//2 = 6
 
 ![](/assets/images/FCSC2020/Slowppiness/8.png)
 
