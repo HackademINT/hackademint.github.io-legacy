@@ -54,7 +54,9 @@ volatility -f memory2.dmp --profile=Win7SP1x86_23418 dumpfiles -D dumped/ -Q 0x0
 
 On a alors le flag chiffré:
 
+```
 \x0c\x17\x1b\x16,ke2,6y>~kn#gepp{d&qc~zb~z//|yq9~4{5uw#y}*v||a/5yfoea2*e.n~a8#0dw;I
+```
 
 Attention, volatility ajoute des null bytes à la fin des fichiers. Maintenant, il faut analyser le malware.
 Radare2 nous indique que l'adresse de main est à 0x00401d3b.
