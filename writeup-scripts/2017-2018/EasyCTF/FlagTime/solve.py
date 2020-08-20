@@ -11,7 +11,7 @@ while True:
     x=[]
     data=""
     while i<len(alpha):
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((server, port))
         start=s.recv(999).decode("utf-8")
         test=data+alpha[i]

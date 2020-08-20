@@ -60,8 +60,8 @@ def check_serial(serial):
 		return False
 	if Z % 3 != 0:
 		return False
-	return True               
-		
+	return True
+
 </code></pre>
 On cherche alors la liste des 'google serials' vérifiant toutes les conditions
 <br />

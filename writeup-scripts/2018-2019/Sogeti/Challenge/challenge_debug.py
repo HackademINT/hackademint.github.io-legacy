@@ -29,7 +29,7 @@ pprint("Random initialization vector", "INFO")
 random.seed(random.randint(1,10000))
 pprint("Seed generated !", "SUCCESS")
 
-key = 0xffffffff 
+key = 0xffffffff
 
 pprint("Generating secret key", "INFO")
 for i in range(10):

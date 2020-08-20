@@ -18,7 +18,7 @@ code = "IjgJUO{P_LOUV_AIRUS_GYQUTOLTD_SKRFB_TWNKCFT}"
 cle = "07271978"
 res = ""
 index = 0
-for i in range(len(code)): 
+for i in range(len(code)):
         if code[i] in ascii_lowercase:
                 res += ascii_lowercase[(ascii_lowercase.index(code[i]) - int(cle[index%len(cle)]))%len(ascii_lowercase)]
                 index += 1

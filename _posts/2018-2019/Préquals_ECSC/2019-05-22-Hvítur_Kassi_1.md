@@ -130,7 +130,7 @@ Ensuite, on va essayer de reverse la deuxième partie de la dernière étape de 
 
 On remarque que pour obtenir s[i] au rang n pour i allant de 4 à 7, on n'a besoin que des s[i] allant de 0 à 3 au rang n-1, pour obtenir les s[i] au rang n pour i allant de 12 à 15, on n'a besoin que des s[i] allant de 0 à 3 qu'on a donc déjà et des s[i] allant de 8 à 10. C'est le même schéma pour les autres valeurs de s.
 
-On peut construire le tableau d'association. 
+On peut construire le tableau d'association.
 
 | s au rang n | s au rang n-1 |
 |-------------|---------------|

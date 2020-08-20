@@ -34,7 +34,7 @@ Pour ce faire,on utilise pngcsum afin de recalculer cette somme.
 
 ## Partie 2 : Chasse au drapeau
 
-Comme on est dans les challenges de « Stéganographie » on va faire de la ... 
+Comme on est dans les challenges de « Stéganographie » on va faire de la ...
 Stéganographie, bravo à ceux qui ont trouvé, pour les autres, il y aura un CF2.
 
 Soit vous aimez la programmation et vous allez chasser tranche de pixel par tranche de pixel avec des programmes Python par exemple, soit vous avez autre chose à faire de votre nuit et on remercie Steven von Acker (haha) pour son outil Java ["Stegsolve"](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install).

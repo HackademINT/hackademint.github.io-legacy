@@ -31,6 +31,6 @@ L'entrée est comparé avec "WattoSays". C'est le mot de passe.
 ![Obfuscaxor4](/assets/images/TamuCTF2019/tamuctf2019_noccbytes4.png)
 
 On se connecte et on récupere le flag.
- 
+
 # Le flag
 On obtient : gigem{Y0urBreakpo1nt5Won7Work0nMeOnlyMon3y}

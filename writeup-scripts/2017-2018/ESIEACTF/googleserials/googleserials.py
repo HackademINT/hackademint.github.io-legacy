@@ -55,7 +55,7 @@ def check_serial(serial):
     if Z % 3 != 0:
         print ("error9")
         return False
-    return True               
+    return True
 
 def find_serial():
     LX=[]

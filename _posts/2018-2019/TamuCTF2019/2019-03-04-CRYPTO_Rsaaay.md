@@ -11,7 +11,7 @@ Le titre du challenge insinue fortement qu'il s'agit d'un challenge de RSA. On a
 
 # Solution
  On peut supposer vu la taille des premiers nombres qu'il s'agit de n (2531257) et e (43). Comme n est petit, on peut le factoriser en p (509) et q (4973). On inverse le rsa pour chaque nombre. Il s'agit d'une suite des codes ascii du flag.
- 
+
 103 105103 101109 12383 97118 97103 10195 83105 12095 70108 121105 110103 9584 105103 101114 115125
 
 On la reconverti et on obtient le flag.
@@ -39,5 +39,4 @@ print(data)
 ```
 # Le flag
 On obtient alors: gigem{Savage_Six_Flying_Tigers}
-
 

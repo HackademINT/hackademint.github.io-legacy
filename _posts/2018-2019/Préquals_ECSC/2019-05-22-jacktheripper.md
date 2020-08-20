@@ -20,7 +20,7 @@ Nous avons accès à trois fichier.
 
 # Etude en local
 
-En étudiant les fichiers, on remarque que les cookies sont gérés avec la fonction sérialize. 
+En étudiant les fichiers, on remarque que les cookies sont gérés avec la fonction sérialize.
 De plus, il y a une variable debug associée à Core qui permet d'afficher le hash md5 du mot de passe d'un utilisateur. Ainsi, envoyer sur le site un cookie valide en local avec la variable debug mise à True affichera le mot de passe admin.
 
 ![En local](/assets/images/Préquals_ECSC/jack_the_ripper2.png)

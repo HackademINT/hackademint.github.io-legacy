@@ -32,4 +32,4 @@ print("0000"+"".join(["0" * ((2 - len(hex(s1[i] ^ s2[i])[2:]))%2) + hex(s1[i] ^ 
 ![JSB5](/assets/images/Inshack2019/inshack2019_jsb5.png)
 
 # Le flag
-On obtient alors : INSA{or4cle_P4dd1ng} 
+On obtient alors : INSA{or4cle_P4dd1ng}
