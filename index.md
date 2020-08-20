@@ -13,3 +13,4 @@ layout: default
 * [RECTF](https://reverse.hackademint.org/): de l'entraînement sur divers défis de retro-ingénierie (*reverse engineering* pour ceux qui ont peur du français)
 * [CyberChef](https://cyberchef.hackademint.org/): notre hébergement de ce puissant outil de conversion en ligne
 * [HackademINT's GTFOBins](https://gtfo.hackademint.org/): notre fork des GFTOBins rassemblant encore plus de méthodes pour faire des escapes de bash, des attaques setuid, ...
+* [RootMeBot](https://github.com/zteeed/RootMeBot): un bot rapportant en direct les défis que valident les membres de votre équipe et marque leurs scores dans votre serveur Discord.
