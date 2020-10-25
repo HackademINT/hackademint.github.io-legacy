@@ -27,7 +27,7 @@ Possible actions:
   [1] Key exchange
   [2] Get flag
   [3] Exit
->>> 
+>>>
 ```
 
 On nous donne un A et un B qui sont 2 matrices encodées en base 64. On peut faire autant de "Key exchange" qu'on veut pour leak de l'information sur \__S_a et \__E_a afin de les retrouver et de les renvoyer pour flag.
@@ -234,7 +234,7 @@ if __name__ == "__main__":
 
 # Flag
 
-Après SEULEMENT quelques heures (c'est quand même marrant que le but du challenge qui suivait celui-ci soit limité en requêtes, ça m'a obligé à activer mon cerveau et à changer ma méthode :/), on a un superbe flag: 
+Après SEULEMENT quelques heures (c'est quand même marrant que le but du challenge qui suivait celui-ci soit limité en requêtes, ça m'a obligé à activer mon cerveau et à changer ma méthode :/), on a un superbe flag:
 ```
 FCSC{4aed95f4374652d9ed3af1080e7a7d0c1cc798aa70592780f2e81a11fb78bd4e}
 ```

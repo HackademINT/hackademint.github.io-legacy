@@ -42,7 +42,7 @@ Afin de reconstituer notre trajectoire, nous utiliserons la librairie python mat
 
 ## Des vitesses et des accélérations
 
-En ouvrant le fichier de logs, on s'aperçoit qu'on dispose de l'historique des accélérations et des vecteurs vitesse successifs du drone. Ce qui nous intéresse étant les positions successives du drone, la définition du vecteur position par rapport à l'accéléation et à la vitesse nous permet d'établir les expressions suivantes: 
+En ouvrant le fichier de logs, on s'aperçoit qu'on dispose de l'historique des accélérations et des vecteurs vitesse successifs du drone. Ce qui nous intéresse étant les positions successives du drone, la définition du vecteur position par rapport à l'accéléation et à la vitesse nous permet d'établir les expressions suivantes:
 x(t+1) = x(t)+ acc(t+1) + vx(t+1)
 y(t+1) = y(t)+ acc(t+1) + vy(t+1)
 z(t+1) = z(t)+ acc(t+1) + vz(t+1)
@@ -103,7 +103,7 @@ N'ayant pas trouvé le moyen de zoomer correctement avec matplotlib, j'ai sélec
 
 ## Difficultés rencontrées pour lire le flag
 
-Si on s'aperçoit rapidement que le flag ne contient que des valeurs hexadécimales (les lettres sont affichées en majuscules mais elles doivent être en minuscule dans le flag pour matcher la regex qu'on nous donne), il n'est pas facile de différencier les E des F. 
+Si on s'aperçoit rapidement que le flag ne contient que des valeurs hexadécimales (les lettres sont affichées en majuscules mais elles doivent être en minuscule dans le flag pour matcher la regex qu'on nous donne), il n'est pas facile de différencier les E des F.
 
 Ainsi, la première version du flag que j'ai obtenu: INSA{66333db55f9ca50f9f9c4c94dc45250532832dc4681d531f0fab6d1a255c8578} n'était pas correcte.
 

@@ -50,5 +50,5 @@ On monte la clé dans `/mnt` et on génère ces fichiers en bash:
 
 ```bash
 for i in {000..999}; do touch /mnt/"$(echo $i | rev)"O"$i".flight; done
-for i in $(ls /mnt/*flight); do echo -n "CDG" > $i; done 
+for i in $(ls /mnt/*flight); do echo -n "CDG" > $i; done
 ```

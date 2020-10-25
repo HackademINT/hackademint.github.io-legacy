@@ -29,7 +29,7 @@ def get_setting():
             plugboard_settings='AV BS CG DL FU HZ IN KM OW RX')
         test = machine.process_text(ciphertext)
     return ring_setting
-    
+
 ring_setting=get_setting()
 ciphertext="LTHCHHBUZODFLJOAFNNAEONXPLDJQVJCZPGAVOLN"
 machine = EnigmaMachine.from_key_sheet(
@@ -37,5 +37,5 @@ machine = EnigmaMachine.from_key_sheet(
    reflector='B',
    ring_settings=ring_setting,
    plugboard_settings='AV BS CG DL FU HZ IN KM OW RX')
-plaintext = machine.process_text(ciphertext)   
+plaintext = machine.process_text(ciphertext)
 print plaintext

@@ -60,7 +60,7 @@ AADBCDgAgGAEHABAMAIOACAYAQcAEIyAAwAIRsABAAQj4AAAgvn/AG9C+ggB
 qjiOAAAAAElFTkSuQmCC
 ------------------------- END MAZE -------------------------
 Now enter your solution:
->>> 
+>>>
 ```
 
 1ère étape : le parsing des données : on nous envoie un png encodé en base64, on va donc le décoder et le découper en morceaux élémentaires (ici en blocs de 64 * 64) afin d'avoir des données exploitables.
@@ -79,7 +79,7 @@ Une fois qu'on peut travailler avec des données propres, y'a plus qu'à!
 J'ai fait un algo récursif qui gère les 8 cas suivants : il y'a une case blanche dans les 4 directions possibles ou une porte colorée dans les 4 directions possibles.
 
 Si on est dans un de ces 8 cas, on emprunte le 1er possible qui vérifie les condition suivante :
-  - La case à atteindre n'a pas encore été atteinte dans l'état dans lequel nous l'atteindront (par état j'entends dernière couleur empruntée) et 
+  - La case à atteindre n'a pas encore été atteinte dans l'état dans lequel nous l'atteindront (par état j'entends dernière couleur empruntée) et
   - Si le chemin est une porte de couleur, ai-je le droit de passer par cette porte?
 
 Puis on rappelle la même fonction en ayant pris soin d'avoir actualisé notre marquage (sans oublier que pour chaque case du labyrinthe on peut avoir eu plusieurs états) ainsi que notre chemin déjà emprunté et la dernière couleur empruntée si on vient de passer par une porte.

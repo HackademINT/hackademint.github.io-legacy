@@ -9,23 +9,23 @@ layout: default
 TP à télécharger : <a href="/TP/RSA/TP_RSA.tar.gz">TP_RSA.tar.gz</a>
 <br />
 <br />
-Objectif : 
+Objectif :
 <br />
 - Comprendre la notion de chiffrement asymétrique ainsi que l'algorithme de chiffrement RSA
 <br />
-- Etre capable de déchiffrer et de decrypter un message 
+- Etre capable de déchiffrer et de decrypter un message
 <br />
 - Utiliser les formats PEM/OPENSSH/PKCS ...
 <br />
 <br />
-Exercice 1 : Déchiffrer un message à l'aide de la clé privée 
+Exercice 1 : Déchiffrer un message à l'aide de la clé privée
 <br />
-Exercice 2 : Décrypter un message à partir de la clé publique (n en dessous de 300bits) 
+Exercice 2 : Décrypter un message à partir de la clé publique (n en dessous de 300bits)
 <br />
-Exercice 3 : Décrypter un message à partir de la clé publique (n au dessus de 500bits) 
+Exercice 3 : Décrypter un message à partir de la clé publique (n au dessus de 500bits)
 <br />
 <br />
-Outils/Liens utiles: 
+Outils/Liens utiles:
 <br />
 - <a href="https://www.openssl.org/docs/man1.0.2/apps/openssl.html">Documentation OpenSSL</a>
 <br />
@@ -40,7 +40,7 @@ Outils/Liens utiles:
 - <a href="http://factordb.com/">FactorDB</a>
 <br />
 <br />
-Pour aller plus loin : 
+Pour aller plus loin :
 <br />
 <a href="https://starhackademint.minet.net">https://starhackademint.minet.net</a>
 <br />

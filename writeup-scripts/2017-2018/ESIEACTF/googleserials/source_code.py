@@ -42,5 +42,4 @@ def check_serial(serial):
 		return False
 	if Z % 3 != 0:
 		return False
-	return True               
-		
+	return True
