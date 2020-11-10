@@ -93,7 +93,7 @@ layout: default
 	    Aurélien Duboc (zTeeed) - Président<br />
 	    <a href="https://github.com/zteeed/" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/zTeeed-115405" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
-	    <a href="https://duboc.xyz" target="\_blank"><img width="50" height="50" src="/assets/images/team/www.png" alt="Website Logo" /></a>
+	    <a href="https://www.duboc.xyz" target="\_blank"><img width="50" height="50" src="/assets/images/team/www.png" alt="Website Logo" /></a>
 	    <a href="https://twitter.com/zTeeed_"><img width="50" height="50" src="/assets/images/team/twitter.png"></a>
 	    <a href="https://www.linkedin.com/in/aurelien-duboc/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	  </li>
