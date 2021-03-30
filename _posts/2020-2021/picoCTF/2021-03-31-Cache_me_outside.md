@@ -7,13 +7,6 @@ ctf: "picoCTF"
 annee: "2021"
 ---
 
-<head>
-      <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
-      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Cache me outside />
-      <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Writeup" />
-      <meta prefix="og: http://ogp.me/ns#" property="og:image" content="/assets/images/pico2021/5.png" />
-</head>
-
 # Énoncé:
 ```
 While being super relevant with my meme references, I wrote a program to see how much you understand heap allocations.
