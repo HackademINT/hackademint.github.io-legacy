@@ -5,7 +5,6 @@ published: true
 author: "Woni"
 ctf: "picoCTF"
 annee: "2021"
-
 ---
 
 # Énoncé:
