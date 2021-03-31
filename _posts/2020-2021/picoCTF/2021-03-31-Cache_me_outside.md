@@ -55,7 +55,7 @@ Regardons les chunks et le tcache:<br>
 
 Nous avons plusieurs candidats où rediriger le malloc.
 
-Voyons où est stocké le pointeur vers la mauvaise zone de mémoire afin de la corrompre avant qu'elle ne soit utilisée: <br>
+Voyons où est stocké le pointeur vers la mauvaise zone de mémoire afin de le corrompre avant qu'il ne soit utilisé: <br>
 
 ![](/assets/images/pico2021/6.png) <br>
 C'est donc ce pointeur qui se situe à 0x602088 qui va régir l'emplacement du prochain malloc.
