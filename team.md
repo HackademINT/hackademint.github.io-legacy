@@ -1,6 +1,28 @@
 ---
 layout: default
 ---
+<!-- 2020 2021 -->
+<span class="image fit main"><img src="" alt="" /></span>
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="4u 12u$(medium)">
+	<h2 align="center">Bureau 2020-2021</h2>
+      </div>
+      <div class="6u 12u$(medium)">
+	<ul style="list-style-type:none">
+	  <li>
+	    Nathan Blondel (Slowerzs) - Président<br />
+	    <a href="https://github.com/Slowerzs" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://www.root-me.org/Slowerzs-152303" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
+	    <a href="https://www.linkedin.com/in/nathan-blondel-b009271b3/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+
+	  </li>
+	</ul>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- 2019 2020 -->
 <span class="image fit main"><img src="" alt="" /></span>
 <div class="content">
