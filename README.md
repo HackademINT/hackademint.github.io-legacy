@@ -2,7 +2,7 @@
 
 HackademINT est le club de cybersécurité de [MINET](https://www.minet.net) affilié à [Telecom SudParis](https://www.telecom-sudparis.eu/). C'est également une équipe compétitive de CTF.
 
-Petit rappel si vous vous êtes retrouvé ici par hasard. CTF est l’abbreviation de _Capture The Flag_ (Capture de Drapeau). Il s’agit d’un mode de jeu dans lequel plusieurs attaquants doivent voler un drapeau et le ramener chez eux. Le but du défenseur (qui n’est autre que l’organisateur du CTF, en général) est de protéger ses drapeaux.
+Petit rappel si vous vous êtes retrouvé ici par hasard. CTF est l’abréviation de _Capture The Flag_ (Capture de Drapeau). Il s’agit d’un mode de jeu dans lequel plusieurs attaquants doivent voler un drapeau et le ramener chez eux. Le but du défenseur (qui n’est autre que l’organisateur du CTF, en général) est de protéger ses drapeaux.
 
 Les CTF existent aussi en informatique, dans le domaine de la sécurité : les organisateurs mettent en place plusieurs épreuves et les participants doivent s’introduire dans un système afin de récupérer le drapeau (flag).
 
