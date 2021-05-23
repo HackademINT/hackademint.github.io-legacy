@@ -67,7 +67,7 @@ Mettons un point d'arrêt juste après le dernier scanf pour voir ce qu'il advie
 
 # L'exploitation
 
-Le programme ajoute la valeur de l'adresse entrée avec 0x6034a0 avec l'instruction `add rdx, rax`, il faut donc entrer `0x602088 - 0x6034a0 = -5144` pour effectivement écrire à 0x602088.
+Le programme ajoute à la valeur de l'adresse entrée, 0x6034a0 avec l'instruction `add rdx, rax`, il faut donc entrer `0x602088 - 0x6034a0 = -5144` pour effectivement écrire à 0x602088.
 
 Mais comment écrire l'adresse d'une zone avec le flag ? Nous n'avons droit qu'à un octet, il faut donc être très précis.
 La valeur déjà en mémoire à 0x602088 est 0x603890.
