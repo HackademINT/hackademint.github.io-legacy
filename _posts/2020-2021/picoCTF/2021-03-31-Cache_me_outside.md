@@ -44,7 +44,7 @@ Il y a un grand nombre de malloc, mettons un point d'arrêt juste avant le derni
 ![](/assets/images/pico2021/3.png)<br>
 Le flag est bien sur le heap !<br>
 ![](/assets/images/pico2021/4.png) <br>
-Cepandant le malloc final s'effectue sur une zone contenant un message qui n'est pas le flag, puis affiche ce qui s'y trouve.
+Cependant le malloc final s'effectue sur une zone contenant un message qui n'est pas le flag, puis affiche ce qui s'y trouve.
 
 Nous allons modifier un pointeur utilisé par malloc pour le forcer à allouer sur un chunk où se trouve le flag grâce au tcache.
 <br>
