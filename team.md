@@ -24,7 +24,7 @@ layout: default
 	    Prométhée Toneatti (Akasuna) - Respo Com
 	  </li>
 	  <li>
-	    Martin Spiering (Typhlos) - Respo Infra
+	    Martin Spiering (Typhlos) - Respo Infra <br />
 	    <a href="https://github.com/Typhlos" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
 	    <a href="https://www.root-me.org/Typhlos" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	  </li>
