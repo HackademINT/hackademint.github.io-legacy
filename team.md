@@ -25,6 +25,8 @@ layout: default
 	  </li>
 	  <li>
 	    Martin Spiering (Typhlos) - Respo Infra
+	    <a href="https://github.com/Typhlos" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+	    <a href="https://www.root-me.org/Typhlos" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 	  </li>
 	  <li>
 	    Mathieu Degré (Hyde/Alternatif) - Respo GATE
