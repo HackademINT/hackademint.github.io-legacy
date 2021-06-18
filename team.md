@@ -61,6 +61,12 @@ layout: default
 	    <a href="https://www.linkedin.com/in/nathan-blondel-b009271b3/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 
 	  </li>
+	  <li>
+        gaetan GIANQUINTIERI - Trésorier<br />
+        <a href="https://github.com/Lexios4" target="_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+        <a href="https://www.root-me.org/lexios4?lang=fr" target="_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
+        <a href="https://www.linkedin.com/in/ga%C3%A9tan-gianquintieri-44a229184/" target="_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+        </li>
 	</ul>
       </div>
     </div>
