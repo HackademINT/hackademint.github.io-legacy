@@ -15,7 +15,9 @@ layout: default
 	    Quentin Michaud (mh4ckt3mh4ckt1c4s) - Président
 	  </li>
 	  <li>
-	    Matthieu Touloucanon (Woni) - Vice-Président
+	    Matthieu Touloucanon (Woni) - Vice-Président <br />
+	    <a href="https://www.root-me.org/Woni" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
+	    <a href="https://www.linkedin.com/in/matthieu-touloucanon/" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
 	  </li>
 	  <li>
 	    Solène Gross - Trésorière
