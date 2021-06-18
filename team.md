@@ -18,7 +18,7 @@ layout: default
 	    Matthieu Touloucanon (Woni) - Vice-Président
 	  </li>
 	  <li>
-	    Solène Gross - Président
+	    Solène Gross - Trésorière
 	  </li>
 	  <li>
 	    Prométhée Toneatti (Akasuna) - Respo Com
