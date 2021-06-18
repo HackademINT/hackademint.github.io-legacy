@@ -1,6 +1,45 @@
 ---
 layout: default
 ---
+<!-- 2021 2022 -->
+<span class="image fit main"><img src="" alt="" /></span>
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="4u 12u$(medium)">
+	<h2 align="center">Bureau 2021-2022</h2>
+      </div>
+      <div class="6u 12u$(medium)">
+	<ul style="list-style-type:none">
+	  <li>
+	    Quentin Michaud (mh4ckt3mh4ckt1c4s) - Président
+	  </li>
+	  <li>
+	    Matthieu Touloucanon (Woni) - Vice-Président
+	  </li>
+	  <li>
+	    Solène Gross - Président
+	  </li>
+	  <li>
+	    Prométhée Toneatti (Akasuna) - Respo Com
+	  </li>
+	  <li>
+	    Martin Spiering (Typhlos) - Respo Infra
+	  </li>
+	  <li>
+	    Mathieu Degré (Hyde/Alternatif) - Respo GATE
+	  </li>
+	  <li>
+	    Augustin Chéneau - Respo Formations
+	  </li>
+	  <li>
+	    Pierre Pollet (PtiBouchon) - Respo Web
+	  </li>
+	</ul>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- 2020 2021 -->
 <span class="image fit main"><img src="" alt="" /></span>
 <div class="content">
