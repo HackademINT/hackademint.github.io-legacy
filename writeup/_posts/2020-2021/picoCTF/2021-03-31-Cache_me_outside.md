@@ -15,7 +15,7 @@ While being super relevant with my meme references, I wrote a program to see how
 On nous donne la libc, le binaire (heapedit) et le makefile (ça ne sert à rien).
 
 # Ça coince déjà
-On ne nous donne pas l'interpréteur allant de paire avec la libc. Cependant, en utilisant la commande `sha256sum`, je me rends compte qu'il s'agit de la même libc que celle d'un autre challenge pour lequel j'ai un exploit et un shell. Je me connecte et je tente de voler l'interpréteur avec `nc` mais cela n'est pas autorisé.
+On ne nous donne pas l'interpréteur allant de paire avec la libc. Cependant, en utilisant la commande `sha256sum`, je me rends compte qu'il s'agit de la même libc que celle d'un autre challenge pour lequel j'ai un exploit et un shell. Je me connecte et je tente de récupérer l'interpréteur avec `nc` mais cela ne fonctionne pas.
 
 Une fois sur le serveur, il suffit d'encoder le fichier en base64:
 ```sh
