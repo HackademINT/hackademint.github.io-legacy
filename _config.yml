@@ -19,7 +19,7 @@ baseurl: /
 
 source: .
 destination: ./_site
-permalink: /:slugified_categories/:title
+permalink: /:title
 paginate: 100
 paginate_path: /page/:num/
 
