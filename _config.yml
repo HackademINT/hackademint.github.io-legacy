@@ -4,6 +4,10 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
 lang: 'fr-FR'
+# -- SOCIAL -- #
+twitter:
+  username: HackademINT
+  url: "https://twitter.com/hackademint"
 github:
   repository_url: 'https://github.com/HackademINT/hackademint.github.io'
 author:
