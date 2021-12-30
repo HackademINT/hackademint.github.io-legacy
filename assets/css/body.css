@@ -1,0 +1,70 @@
+html, body {
+    margin: 0; padding: 0;
+} 
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    display: block;
+    margin: 15vh 25vw;
+}
+
+main img {
+    max-width: 100%;
+}
+
+/* DECORATION */
+body {
+    background-attachment: fixed;
+    background: linear-gradient(#2a2a29, #1c1c1c);
+}
+
+main h1, main h2, main h3 {
+    color: #e8e8e8;
+}
+
+main {
+    color: #d7cfbe;
+}
+
+main ul {
+    list-style-image: url("https://www.hackademint.org/assets/images/bullet.png");
+}
+
+main a {
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+main a:hover {
+    color: #ffeb9b;
+}
+
+main {
+    font-family: "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+main a:hover img {
+    filter: invert(100%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 1.2vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #363635;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(22, 22, 21); 
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0c0c0c; 
+}
