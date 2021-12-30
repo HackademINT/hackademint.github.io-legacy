@@ -1,87 +1,11 @@
-<script src="/menu.js"></script>
-
 <header>
-    <nav>
-        <ul id="header-toggle-vertical">
-            <ul>
-                <li>
-                    <a href="/">
-                        <img src="{{ site.url}}/favicon.ico">
-                        <h1>HackademINT</h1>
-                    </a>
-                </li>
-                <li id="header-menu-btn">
-                    <button onclick="headerShrink()"><i class="fas fa-bars"></i></button>
-                    <script>
-                        function headerShrink() {
-                            var elmts = document.getElementsByClassName("header-shrink")
-                            for (var i = 0; i < elmts.length; i++) {
-                                if (!elmts[i].style.maxHeight) {
-                                    elmts[i].style.maxHeight = "100px";
-                                    elmts[i].style.overflow = "visible";
-                                } else {
-                                    elmts[i].style.maxHeight = null;
-                                    elmts[i].style.overflow = null;
-                                }
-                            }
-                        }
-                    </script>
-                </li>
-            </ul>
-            <li class="header-shrink"><a href="/team">TEAM</a></li>
-            <li class="header-shrink"><a href="/gate">GATE®</a></li>
-            <li class="header-shrink"><a href="/sponsors">SPONSORS</a></li>
-            <li class="header-shrink"><a href="/writeups">WRITEUPS</a></li>
-            <li class="header-shrink"><a href="/formations">FORMATIONS</a></li>
-        </ul>
-        <ul class="header-shrink">
-            <li>
-                <a href="{{ site.twitter.url }}" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                    id="discord-widget-bt">
-                        <i class="fab fa-discord"></i>
-                </a>
-                <script>
-                    document.addEventListener("click", (evt) => {
-                        const flyoutElement = document.getElementById("discord-widget-div");
-                        const btElement = document.getElementById("discord-widget-bt");
-                        let targetElement = evt.target; // Clicked element
-                        do {
-                            if (targetElement == flyoutElement) {
-                                // Click inside
-                                return;
-                            }
-                            else {
-                                if (targetElement == btElement && document.getElementById("discord-widget-div").style.display == "none")
-                                {
-                                    document.getElementById("discord-widget-div").style.display = "block";
-                                    btElement.style.backgroundColor = "#080808";
-                                    return;
-                                }
-                            }
-                            targetElement = targetElement.parentNode;
-                        } while (targetElement);
-
-                        btElement.style.backgroundColor = "";
-                        document.getElementById("discord-widget-div").style.display = "none";
-                    }); 
-                </script>
-                <div id="discord-widget-div" style="display: none;">
-                    <iframe id="discord-widget"
-                        src="https://discordapp.com/widget?id=420034543366701056" allowtransparency="true" frameborder="0" style="margin:0;padding:0;height:400px;"
-                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-                    </iframe>
-                </div>
-            </li>
-            <li>
-                <a href="{{ site.github.repository_url }}" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
+  <div>
+    <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    <h1>{{ owner_first_name[0] | downcase }}@ctf:~$</h1>
+    </a>
+    <div class="header-links">
+      {% include links.html %}
+    </div>
+  </div>
 </header>
