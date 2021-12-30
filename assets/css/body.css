@@ -11,6 +11,18 @@ main {
     margin: 5vh 25vw;
 }
 
+@media (orientation: portrait) {
+    main {
+        margin: 5vh 10vw;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    main {
+        margin: 5vh 10vw;
+    }
+}
+
 main img {
     max-width: 100%;
 }
