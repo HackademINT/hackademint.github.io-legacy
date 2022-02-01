@@ -45,37 +45,6 @@
                     id="discord-widget-bt">
                         <i class="fab fa-discord"></i>
                 </a>
-                <script>
-                    document.addEventListener("click", (evt) => {
-                        const flyoutElement = document.getElementById("discord-widget-div");
-                        const btElement = document.getElementById("discord-widget-bt");
-                        let targetElement = evt.target; // Clicked element
-                        do {
-                            if (targetElement == flyoutElement) {
-                                // Click inside
-                                return;
-                            }
-                            else {
-                                if (targetElement == btElement && document.getElementById("discord-widget-div").style.display == "none")
-                                {
-                                    document.getElementById("discord-widget-div").style.display = "block";
-                                    btElement.style.backgroundColor = "#080808";
-                                    return;
-                                }
-                            }
-                            targetElement = targetElement.parentNode;
-                        } while (targetElement);
-
-                        btElement.style.backgroundColor = "";
-                        document.getElementById("discord-widget-div").style.display = "none";
-                    }); 
-                </script>
-                <div id="discord-widget-div" style="display: none;">
-                    <iframe id="discord-widget"
-                        src="https://discordapp.com/widget?id=420034543366701056" allowtransparency="true" frameborder="0" style="margin:0;padding:0;height:400px;"
-                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-                    </iframe>
-                </div>
             </li>
             <li>
                 <a href="{{ site.github.repository_url }}" target="_blank">
