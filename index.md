@@ -10,8 +10,8 @@ layout: default
     <hr style="margin-top: 75px">
 </section>
 
+# Lien pour accéder à la formation : [https://webconf.imt.fr/frontend/que-yuw-hdg-z5n](cliquez ici)
 <h1 align="center"><b>Bienvenue sur le site du club<br/>HackademINT !</b></h1>
 ### Vous trouverez ci-dessous une liste des différents sites web que le club crée, maintient et met à jour pour ses activités :
 
-## Lien pour accéder à la formation : [https://webconf.imt.fr/frontend/que-yuw-hdg-z5n](cliquez ici)
 * [RootMeBot](https://github.com/Slowerzs/RootMeBotV2): un bot rapportant en direct les défis que valident les membres de votre équipe et marque leurs scores dans votre serveur Discord.
