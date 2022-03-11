@@ -8,6 +8,11 @@ layout: default
 	<ul style="list-style-type:none">
 		<li>
 			Quentin Michaud (mh4ckt3mh4ckt1c4s) - Président
+			<a href="https://www.root-me.org/mh4ckt3mh4ckt1c4s" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
+			<a href="https://app.hackthebox.com/profile/436328" target="\_blank"><img width="50" height="50" src="/assets/images/team/htb.png" alt="HackTheBox Logo" /></a>
+			<a href="https://www.linkedin.com/in/quentmichaud" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
+			<a href="https://github.com/mh4ckt3mh4ckt1c4s" target="\_blank"><img width="50" height="50" src="/assets/images/team/github.png" alt="Github Logo" /></a>
+			<a href="https://gitlab.com/mh4ckt3mh4ckt1c4s" target="\_blank"><img width="50" height="50" src="/assets/images/team/gitlab-filled.png" alt="Gitlab Logo" /></a>
 		</li>
 		<li>
 			Matthieu Touloucanon (Woni) - Vice-Président <br />
