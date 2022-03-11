@@ -7,7 +7,7 @@ layout: default
 	<h2 align="center">Bureau 2021-2022</h2>
 	<ul style="list-style-type:none">
 		<li>
-			Quentin Michaud (mh4ckt3mh4ckt1c4s) - Président
+			Quentin Michaud (mh4ckt3mh4ckt1c4s) - Président <br/>
 			<a href="https://www.root-me.org/mh4ckt3mh4ckt1c4s" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/IMG/siteon0.svg" alt="Root-me Logo" /></a>
 			<a href="https://app.hackthebox.com/profile/436328" target="\_blank"><img width="50" height="50" src="/assets/images/team/htb.png" alt="HackTheBox Logo" /></a>
 			<a href="https://www.linkedin.com/in/quentmichaud" target="\_blank"><img width="50" height="50" src="/assets/images/linkedin_circle_black-512.png" alt="LinkedIn Logo" /></a>
