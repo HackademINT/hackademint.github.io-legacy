@@ -5,6 +5,7 @@ layout: default
 <section style="margin-bottom: 20px; text-align: center;">
     <hr>
     <img style="float: left" src="/images/logo.png" width="150px">
+    <img style="float: right" src="/images/minet.png" width="150px">
     <h1 style="margin-top: 75px;">{{ site.title | default: site.github.repository_name }}</h1>
     <p>{{ site.description | default: site.github.project_tagline }}</p>
     <hr style="margin-top: 75px">
