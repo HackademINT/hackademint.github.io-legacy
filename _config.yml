@@ -1,5 +1,5 @@
 title: HackademINT
-description: Club de cybersécurité de Telecom SudParis
+description: Club de cybersécurité de MiNET
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
@@ -40,4 +40,4 @@ plugins:
   - jekyll-menus
 
 owner : "HackademINT"
-year : "2020"
+year : "2022"
